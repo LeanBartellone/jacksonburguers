@@ -1,0 +1,358 @@
+*{
+color: rgb(255, 255, 255);
+padding: 0%;
+margin: 0.05%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+header{
+    background-size: 80px;
+    display: block;
+    background-image: linear-gradient(to top, #000000, #111111,#222222, #333333, #555555);
+    grid-area: header;
+}
+
+body{
+    background-color: #000000;
+}
+
+footer {
+    text-align:center; 
+    font-size: 0.45cm;
+    background-color: #000000;
+    grid-area: "footer";
+}
+
+.tituloPrincipal{
+    background-size: 80px;
+    color:#e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer ul li a {
+    text-decoration: none
+}
+
+footer ul p {
+    font-size: 10px;
+}
+
+.tituloComidaDerecha {
+    text-align: right; 
+    color: #fca64b;
+    grid-area: lean;
+}
+
+.tituloComida {
+    text-align:left; 
+    color: #fca64b;
+    grid-area: jacky;
+}
+
+.descripcionComidaDerecha{
+    text-align:right;
+    line-height: 20px; 
+    font-style: oblique;
+    grid-area: lean;
+}
+
+.descripcionComidaIzquierda{
+    text-align:left;
+    line-height: 20px; 
+    font-style: oblique;
+    grid-area: jacky;
+}
+
+.tituloRedes{
+    position: fixed; 
+    left: 1000px; 
+    top: 570px; 
+    color: #fca64b;
+}
+
+.redesSociales{
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 0px 08px 0px 00px;
+    width: 50%;
+    display: inline-block;
+}
+
+.redesSociales ul{
+    list-style-type: none; 
+    padding: 0%;
+}
+
+.redesSociales ul li{  
+    display: inline-block;
+    background-color: #000000;
+    border: 01px solid #000000;
+    border-radius: 00px;
+    padding: 05px;
+}
+
+.redesSociales ul li a{
+    font: size 20px; 
+    text-align:right; 
+    color:#e67700;
+}
+
+.parrafoNosotros{
+    text-align: center ;
+    text-decoration:dotted; 
+    line-height: 35px
+}
+
+.nosDestacamos{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.nosDestacamos li{
+    color: #e67700;
+}
+
+.parrafoContacto{
+    text-align: center;
+} 
+
+.botonDecision{
+    border-color:#fca64b;
+    margin-bottom: 7px;
+    color: #000000;
+
+}
+
+#textoFoto{ 
+    background-color: #000000;
+    font-size: 100px; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 850px;
+    right: 200px; 
+    border:solid; 
+    border-color: #e67700;
+
+}
+
+form{
+    margin: 7px;
+}
+
+.navBar ul li a{
+    transition: 1.0s;
+}
+
+.navBar ul li a:hover{
+ color: #e67700;   
+}
+
+.carne{
+display: flex;
+flex-direction:column;
+align-items: flex-end; 
+justify-content: end;
+grid-area: lean;
+}
+
+.veggie{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: end; 
+    }
+
+.jack{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    border-bottom: 4px solid #fca64b; 
+}
+
+footer{
+    border-top: 4px solid #fca64b;
+    grid-area: footer; 
+    }
+
+.gridIndex{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 1fr 100px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+}
+
+.gridNosotros{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 580px 200px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+}
+
+.gridContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 530px 200px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+}
+
+.jacky{
+grid-area: jacky;
+}
+
+.lean{
+    grid-area: lean;
+}
+
+.gridCarne{
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 45% 27% 8% 20%;  
+grid-template-areas: 
+"header"
+"jacky"
+"lean"
+"footer"
+}
+
+.pupi{
+    grid-area: pupi;
+}
+
+.sunny{
+    grid-area: sunny;
+}
+
+.gridVeggie{
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 41% 29% 24% 6%;
+grid-template-areas: 
+"header"
+"pupi"
+"sunny"
+"footer"
+}
+/*>diseño para tableta*/
+
+@media screen and (min-width:600px ) {
+        .gridIndex{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 500px 800px 200px;
+            grid-template-areas: 
+            "header"
+            "main"
+            "footer"}
+
+        .gridVeggie{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 44% 28% 24% 4%;
+            grid-template-areas: 
+            "header"
+            "pupi"
+            "sunny"
+            "footer"
+            }
+
+        .gridCarne{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 44% 28% 2% 26%;  
+            grid-template-areas: 
+            "header"
+            "jacky"
+            "lean"
+            "footer"}
+
+        .gridNosotros{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 1fr 500px 200px;
+            grid-template-areas: 
+            "header"
+            "main"
+            "footer"}
+
+            .gridContacto{
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 1fr 530px 200px;
+                grid-template-areas: 
+                "header"
+                "main"
+                "footer"}
+        }
+
+/*Diseño para Desktop*/
+
+@media screen and (min-width:1200px ) {
+        .gridIndex{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 390px 1fr 200px;
+            grid-template-areas: 
+            "header"
+            "main"
+            "footer"}
+
+        .gridCarne{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 35% 32% 5% 28%;  
+            grid-template-areas: 
+            "header header"
+            "jacky jacky"
+            "lean lean"
+            "footer footer"}
+            
+         .gridVeggie{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 35% 32% 28% 5%;
+            grid-template-areas: 
+            "header header"
+            "pupi pupi"
+            "sunny sunny"
+            "footer footer"
+            }
+
+            .gridNosotros{
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 1fr 330px 200px;
+                grid-template-areas: 
+                "header"
+                "main"
+                "footer"
+            }
+
+            .gridContacto{
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 1fr 530px 200px;
+                grid-template-areas: 
+                "header"
+                "main"
+                "footer" 
+            } 
+        }
