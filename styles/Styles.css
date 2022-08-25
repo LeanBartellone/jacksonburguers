@@ -68,8 +68,9 @@ footer ul p {
 .tituloRedes{
     position: fixed; 
     left: 1000px; 
-    top: 570px; 
+    top: 555px; 
     color: #fca64b;
+    margin: 0px;
 }
 
 .redesSociales{
@@ -105,12 +106,13 @@ footer ul p {
 .parrafoNosotros{
     text-align: center ;
     text-decoration:dotted; 
-    line-height: 35px
+    line-height: 29px;
 }
 
 .nosDestacamos{
     text-decoration: underline;
     font-size: 25px;
+    list-style-type: none;
 }
 
 .nosDestacamos li{
@@ -355,4 +357,32 @@ grid-template-areas:
                 "main"
                 "footer" 
             } 
+            .colorNav{
+                background-color: #000000;
+                border: 2px solid #e67700;
+                text-align: center;
+            }
+
+            .colorNav a {
+                transition: 1.5s;
+            }
+
+            .colorNav a:hover{
+                color:rgb(255, 255, 255) ;
+            }
+            .colorText{
+                color: #e67700;
+                text-align: center;
+            }
+
+            .colorText a{
+                transition: 1.5s;
+            }
+
+            .colorText a:hover{
+                color: #e67700;
+            }
+            .datos{
+                list-style-type: none;
+            }
         }
