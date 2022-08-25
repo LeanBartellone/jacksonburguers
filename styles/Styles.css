@@ -253,6 +253,38 @@ grid-template-areas:
 "sunny"
 "footer"
 }
+
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+    text-align: center;
+}
+.colorNav a {
+    transition: 1.5s;
+}
+.colorNav a:hover{
+    color:rgb(255, 255, 255) ;
+}
+.colorNav a:visited{
+    color: #e67700;
+}
+.colorText{
+    color: #fca64b;
+    text-align: center;
+}
+.colorText a{
+    transition: 1.5s;
+}
+.colorText a:hover{
+    color: #e67700;
+}
+.datos li{
+    list-style-type: none;
+}
+
+
+
+
 /*>diseño para tableta*/
 
 @media screen and (min-width:600px ) {
@@ -370,11 +402,13 @@ grid-template-areas:
             .colorNav a:hover{
                 color:rgb(255, 255, 255) ;
             }
-            .colorText{
+            .colorNav a:visited{
                 color: #e67700;
+            }
+            .colorText{
+                color: #fca64b;
                 text-align: center;
             }
-
             .colorText a{
                 transition: 1.5s;
             }
@@ -382,7 +416,7 @@ grid-template-areas:
             .colorText a:hover{
                 color: #e67700;
             }
-            .datos{
+            .datos li{
                 list-style-type: none;
             }
         }
