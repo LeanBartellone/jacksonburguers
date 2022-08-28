@@ -15,11 +15,11 @@ body{
     background-color: #000000;
 }
 
-footer {
+footerrrr {
     text-align:center; 
     font-size: 0.45cm;
     background-color: #000000;
-    grid-area: "footer";
+    grid-area: "footerr";
 }
 
 .tituloPrincipal{
@@ -39,30 +39,30 @@ footer ul p {
     font-size: 10px;
 }
 
-.tituloComidaDerecha {
+.tituloComidaDerechaaaa {
     text-align: right; 
     color: #fca64b;
-    grid-area: lean;
+    grid-area: leann;
 }
 
-.tituloComida {
+.tituloComidaaaaa {
     text-align:left; 
     color: #fca64b;
-    grid-area: jacky;
+    grid-area: jackyy;
 }
 
-.descripcionComidaDerecha{
+.descripcionComidaDerechaaa{
     text-align:right;
     line-height: 20px; 
     font-style: oblique;
-    grid-area: lean;
+    grid-area: leann;
 }
 
-.descripcionComidaIzquierda{
+.descripcionComidaIzquierdaaaa{
     text-align:left;
     line-height: 20px; 
     font-style: oblique;
-    grid-area: jacky;
+    grid-area: jackyyyy;
 }
 
 .tituloRedes{
@@ -155,15 +155,15 @@ form{
  color: #e67700;   
 }
 
-.carne{
+.carneeeee{
 display: flex;
 flex-direction:column;
 align-items: flex-end; 
 justify-content: end;
-grid-area: lean;
+grid-area: leannnn;
 }
 
-.veggie{
+.veggiedd{
     display: flex;
     flex-direction:column;
     align-items: flex-end;
@@ -182,11 +182,10 @@ header{
 }
 
 footer{
-    border-top: 4px solid #fca64b;
-    grid-area: footer; 
+    border-top: 4px solid #fca64b; 
     }
 
-.gridIndex{
+.gridIndexsa{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 500px 1fr 100px;
@@ -196,7 +195,7 @@ footer{
     "footer"
 }
 
-.gridNosotros{
+.gridNosotrosaaa{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 580px 200px;
@@ -206,7 +205,7 @@ footer{
     "footer"
 }
 
-.gridContacto{
+.gridContactoaa{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 530px 200px;
@@ -216,15 +215,15 @@ footer{
     "footer"
 }
 
-.jacky{
-grid-area: jacky;
+.jackysasa{
+grid-area: jackyyyy;
 }
 
-.lean{
-    grid-area: lean;
+.leansasa{
+    grid-area: leannnn;
 }
 
-.gridCarne{
+.gridCarnesasa{
 display: grid;
 grid-template-columns: 100%;
 grid-template-rows: 45% 27% 8% 20%;  
@@ -235,15 +234,15 @@ grid-template-areas:
 "footer"
 }
 
-.pupi{
+.pupiasas{
     grid-area: pupi;
 }
 
-.sunny{
+.sunnyasas{
     grid-area: sunny;
 }
 
-.gridVeggie{
+.gridVeggiesas{
 display: grid;
 grid-template-columns: 100%;
 grid-template-rows: 41% 29% 24% 6%;
@@ -288,7 +287,7 @@ grid-template-areas:
 /*>diseño para tableta*/
 
 @media screen and (min-width:600px ) {
-        .gridIndex{
+        .gridIndexsas{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 500px 800px 200px;
@@ -297,7 +296,7 @@ grid-template-areas:
             "main"
             "footer"}
 
-        .gridVeggie{
+        .gridVeggiesas{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 44% 28% 24% 4%;
@@ -308,7 +307,7 @@ grid-template-areas:
             "footer"
             }
 
-        .gridCarne{
+        .gridCarnesas{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 44% 28% 2% 26%;  
@@ -318,7 +317,7 @@ grid-template-areas:
             "lean"
             "footer"}
 
-        .gridNosotros{
+        .gridNosotrosss{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 1fr 500px 200px;
@@ -327,7 +326,7 @@ grid-template-areas:
             "main"
             "footer"}
 
-            .gridContacto{
+            .gridContactossss{
                 display: grid;
                 grid-template-columns: 100%;
                 grid-template-rows: 1fr 530px 200px;
@@ -340,7 +339,7 @@ grid-template-areas:
 /*Diseño para Desktop*/
 
 @media screen and (min-width:1200px ) {
-        .gridIndex{
+        .gridIndexxxxx{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 390px 1fr 200px;
@@ -349,7 +348,7 @@ grid-template-areas:
             "main"
             "footer"}
 
-        .gridCarne{
+        .gridCarnessssss{
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-rows: 35% 32% 5% 28%;  
@@ -359,7 +358,7 @@ grid-template-areas:
             "lean lean"
             "footer footer"}
             
-         .gridVeggie{
+         .gridVeggieasca{
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-rows: 35% 32% 28% 5%;
@@ -370,7 +369,7 @@ grid-template-areas:
             "footer footer"
             }
 
-            .gridNosotros{
+            .gridNosotrossasa{
                 display: grid;
                 grid-template-columns: 100%;
                 grid-template-rows: 1fr 330px 200px;
@@ -380,7 +379,7 @@ grid-template-areas:
                 "footer"
             }
 
-            .gridContacto{
+            .gridContactolll{
                 display: grid;
                 grid-template-columns: 100%;
                 grid-template-rows: 1fr 530px 200px;
@@ -400,10 +399,10 @@ grid-template-areas:
             }
 
             .colorNav a:hover{
-                color:rgb(255, 255, 255) ;
+                color:rgb(255, 255, 255);
             }
             .colorNav a:visited{
-                color: #e67700;
+                color: #fca64b;
             }
             .colorText{
                 color: #fca64b;
@@ -418,5 +417,13 @@ grid-template-areas:
             }
             .datos li{
                 list-style-type: none;
+            }
+
+            .tituloFotos{
+                color: #fca64b;
+            }
+
+            footer{
+                margin: 10px;
             }
         }
