@@ -33,10 +33,6 @@ footer ul li a {
     text-decoration: none
 }
 
-footer ul p {
-    font-size: 10px;
-}
-
 .tituloRedes{
     position: fixed; 
     left: 1000px; 
@@ -95,13 +91,6 @@ footer ul p {
     text-align: center;
 } 
 
-.botonDecision{
-    border-color:#fca64b;
-    margin-bottom: 7px;
-    color: #000000;
-
-}
-
 #textoFoto{ 
     background-color: #000000;
     font-size: 100px; 
@@ -112,19 +101,10 @@ footer ul p {
     right: 200px; 
     border:solid; 
     border-color: #e67700;
-
 }
 
 form{
-    margin: 7px;
-}
-
-.navBar ul li a{
-    transition: 1.0s;
-}
-
-.navBar ul li a:hover{
- color: #e67700;   
+    margin: 5px;
 }
 
 .jack{
@@ -271,4 +251,5 @@ footer{
     display: flex;
     justify-content: space-around;
     }
+    
     }
