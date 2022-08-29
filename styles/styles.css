@@ -93,12 +93,12 @@ footer ul li a {
 
 #textoFoto{ 
     background-color: #000000;
-    font-size: 100px; 
+    font-size: 46px; 
     color:#e67700;
     font-weight: bold;
     position: absolute; 
-    top: 850px;
-    right: 200px; 
+    top: 700px;
+    right: 100px; 
     border:solid; 
     border-color: #e67700;
 }
@@ -150,6 +150,13 @@ footer{
     list-style-type: none;
 }
 
+.tituloFotos{
+    color: #fca64b;
+    }
+
+footer{
+    margin:10px;
+    }
 .carrousellSunny{
     display: flex;
     justify-content: space-around;
@@ -164,11 +171,34 @@ footer{
     display: flex;
     justify-content: space-around;
     }
+
+.carrousellLean{
+    display: flex;
+    justify-content: space-around;
+    }
+    
 
 /*>diseño para tableta*/
 
 @media screen and (min-width:600px ) {
 
+#textoFoto{ 
+    background-color: #000000;
+    font-size: 46px; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 700px;
+    right: 100px; 
+    border:solid; 
+    border-color: #e67700;
+    }
+
+
+.tituloFotos{
+    color: #fca64b;
+    }
+
 .carrousellSunny{
     display: flex;
     justify-content: space-around;
@@ -182,12 +212,75 @@ footer{
 .carrousellJacksoneitor{
     display: flex;
     justify-content: space-around;
+    }
+
+.carrousellLean{
+    display: flex;
+    justify-content: space-around;
+    }
+
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+    text-align: center;
+    }
+    
+.colorNav a {
+    transition: 1.5s;
+    }
+    
+.colorNav a:hover{
+    color:rgb(255, 255, 255);
+    }
+    
+.colorNav a:visited{
+    color: #fca64b;
+    }
+    
+.colorText{
+    color: #fca64b;
+    text-align: center;
+    }
+    
+.colorText a{
+    transition: 1.5s;
+    }
+    
+.colorText a:hover{
+    color: #e67700;
+    }
+    
+.datos li{
+    list-style-type: none;
+    }
+    
+.tituloFotos{
+    color: #fca64b;
+    }
+    
+footer{
+    margin:10px;
     }
     }
 
 /*Diseño para Desktop*/
 
 @media screen and (min-width:1200px ) {
+
+#textoFoto{ 
+    background-color: #000000;
+    font-size: 100px; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 850px;
+    right: 200px; 
+    border:solid; 
+    border-color: #e67700;
+    }
+
+
+
 
 .colorNav{
     background-color: #000000;
