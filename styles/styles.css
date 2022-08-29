@@ -281,6 +281,19 @@ grid-template-areas:
     list-style-type: none;
 }
 
+.carrousellSunny{
+    display: flex;
+    justify-content: space-around;
+    }
+    .carrousellPupi{
+    display: flex;
+    justify-content: space-around;
+    }
+    .carrousellJacksoneitor{
+    display: flex;
+    justify-content: space-around;
+    }
+
 
 
 
@@ -334,6 +347,27 @@ grid-template-areas:
                 "header"
                 "main"
                 "footer"}
+
+                .carrousellSunny{
+                    display: flex;
+                    justify-content: space-around;
+                    }
+                    .carrousellPupi{
+                    display: flex;
+                    justify-content: space-around;
+                    }
+                    .carrousellJacksoneitor{
+                    display: flex;
+                    justify-content: space-around;
+                    }
+
+
+
+
+
+
+
+
         }
 
 /*Diseño para Desktop*/
@@ -426,4 +460,24 @@ grid-template-areas:
             footer{
                 margin: 10px;
             }
+
+            .carrousellSunny{
+            display: flex;
+            justify-content: space-around;
+            }
+            .carrousellPupi{
+            display: flex;
+            justify-content: space-around;
+            }
+
+            .carrousellJacksoneitor{
+            display: flex;
+            justify-content: space-around;
+            }
+
+        .carrousellLean{
+            display: flex;
+            justify-content: space-around;
+           }
+
         }
