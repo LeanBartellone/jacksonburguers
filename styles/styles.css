@@ -8,18 +8,16 @@ header{
     background-size: 80px;
     display: block;
     background-image: linear-gradient(to top, #000000, #111111,#222222, #333333, #555555);
-    grid-area: header;
 }
 
 body{
     background-color: #000000;
 }
 
-footerrrr {
+footer {
     text-align:center; 
     font-size: 0.45cm;
     background-color: #000000;
-    grid-area: "footerr";
 }
 
 .tituloPrincipal{
@@ -37,32 +35,6 @@ footer ul li a {
 
 footer ul p {
     font-size: 10px;
-}
-
-.tituloComidaDerechaaaa {
-    text-align: right; 
-    color: #fca64b;
-    grid-area: leann;
-}
-
-.tituloComidaaaaa {
-    text-align:left; 
-    color: #fca64b;
-    grid-area: jackyy;
-}
-
-.descripcionComidaDerechaaa{
-    text-align:right;
-    line-height: 20px; 
-    font-style: oblique;
-    grid-area: leann;
-}
-
-.descripcionComidaIzquierdaaaa{
-    text-align:left;
-    line-height: 20px; 
-    font-style: oblique;
-    grid-area: jackyyyy;
 }
 
 .tituloRedes{
@@ -155,21 +127,6 @@ form{
  color: #e67700;   
 }
 
-.carneeeee{
-display: flex;
-flex-direction:column;
-align-items: flex-end; 
-justify-content: end;
-grid-area: leannnn;
-}
-
-.veggiedd{
-    display: flex;
-    flex-direction:column;
-    align-items: flex-end;
-    justify-content: end; 
-    }
-
 .jack{
     display: flex;
     flex-direction:column;
@@ -184,74 +141,6 @@ header{
 footer{
     border-top: 4px solid #fca64b; 
     }
-
-.gridIndexsa{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 500px 1fr 100px;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-}
-
-.gridNosotrosaaa{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 580px 200px;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-}
-
-.gridContactoaa{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 530px 200px;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-}
-
-.jackysasa{
-grid-area: jackyyyy;
-}
-
-.leansasa{
-    grid-area: leannnn;
-}
-
-.gridCarnesasa{
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows: 45% 27% 8% 20%;  
-grid-template-areas: 
-"header"
-"jacky"
-"lean"
-"footer"
-}
-
-.pupiasas{
-    grid-area: pupi;
-}
-
-.sunnyasas{
-    grid-area: sunny;
-}
-
-.gridVeggiesas{
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows: 41% 29% 24% 6%;
-grid-template-areas: 
-"header"
-"pupi"
-"sunny"
-"footer"
-}
 
 .colorNav{
     background-color: #000000;
@@ -285,199 +174,101 @@ grid-template-areas:
     display: flex;
     justify-content: space-around;
     }
-    .carrousellPupi{
+
+.carrousellPupi{
     display: flex;
     justify-content: space-around;
     }
-    .carrousellJacksoneitor{
+
+.carrousellJacksoneitor{
     display: flex;
     justify-content: space-around;
     }
-
-
-
 
 /*>diseño para tableta*/
 
 @media screen and (min-width:600px ) {
-        .gridIndexsas{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 500px 800px 200px;
-            grid-template-areas: 
-            "header"
-            "main"
-            "footer"}
 
-        .gridVeggiesas{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 44% 28% 24% 4%;
-            grid-template-areas: 
-            "header"
-            "pupi"
-            "sunny"
-            "footer"
-            }
+.carrousellSunny{
+    display: flex;
+    justify-content: space-around;
+    }
 
-        .gridCarnesas{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 44% 28% 2% 26%;  
-            grid-template-areas: 
-            "header"
-            "jacky"
-            "lean"
-            "footer"}
+.carrousellPupi{
+    display: flex;
+    justify-content: space-around;
+    }
 
-        .gridNosotrosss{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 1fr 500px 200px;
-            grid-template-areas: 
-            "header"
-            "main"
-            "footer"}
-
-            .gridContactossss{
-                display: grid;
-                grid-template-columns: 100%;
-                grid-template-rows: 1fr 530px 200px;
-                grid-template-areas: 
-                "header"
-                "main"
-                "footer"}
-
-                .carrousellSunny{
-                    display: flex;
-                    justify-content: space-around;
-                    }
-                    .carrousellPupi{
-                    display: flex;
-                    justify-content: space-around;
-                    }
-                    .carrousellJacksoneitor{
-                    display: flex;
-                    justify-content: space-around;
-                    }
-
-
-
-
-
-
-
-
-        }
+.carrousellJacksoneitor{
+    display: flex;
+    justify-content: space-around;
+    }
+    }
 
 /*Diseño para Desktop*/
 
 @media screen and (min-width:1200px ) {
-        .gridIndexxxxx{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 390px 1fr 200px;
-            grid-template-areas: 
-            "header"
-            "main"
-            "footer"}
 
-        .gridCarnessssss{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 35% 32% 5% 28%;  
-            grid-template-areas: 
-            "header header"
-            "jacky jacky"
-            "lean lean"
-            "footer footer"}
-            
-         .gridVeggieasca{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 35% 32% 28% 5%;
-            grid-template-areas: 
-            "header header"
-            "pupi pupi"
-            "sunny sunny"
-            "footer footer"
-            }
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+    text-align: center;
+    }
 
-            .gridNosotrossasa{
-                display: grid;
-                grid-template-columns: 100%;
-                grid-template-rows: 1fr 330px 200px;
-                grid-template-areas: 
-                "header"
-                "main"
-                "footer"
-            }
+.colorNav a {
+    transition: 1.5s;
+    }
 
-            .gridContactolll{
-                display: grid;
-                grid-template-columns: 100%;
-                grid-template-rows: 1fr 530px 200px;
-                grid-template-areas: 
-                "header"
-                "main"
-                "footer" 
-            } 
-            .colorNav{
-                background-color: #000000;
-                border: 2px solid #e67700;
-                text-align: center;
-            }
+.colorNav a:hover{
+    color:rgb(255, 255, 255);
+    }
 
-            .colorNav a {
-                transition: 1.5s;
-            }
+.colorNav a:visited{
+    color: #fca64b;
+    }
 
-            .colorNav a:hover{
-                color:rgb(255, 255, 255);
-            }
-            .colorNav a:visited{
-                color: #fca64b;
-            }
-            .colorText{
-                color: #fca64b;
-                text-align: center;
-            }
-            .colorText a{
-                transition: 1.5s;
-            }
+.colorText{
+    color: #fca64b;
+    text-align: center;
+    }
 
-            .colorText a:hover{
-                color: #e67700;
-            }
-            .datos li{
-                list-style-type: none;
-            }
+.colorText a{
+    transition: 1.5s;
+    }
 
-            .tituloFotos{
-                color: #fca64b;
-            }
+.colorText a:hover{
+    color: #e67700;
+    }
 
-            footer{
-                margin: 10px;
-            }
+.datos li{
+    list-style-type: none;
+    }
 
-            .carrousellSunny{
-            display: flex;
-            justify-content: space-around;
-            }
-            .carrousellPupi{
-            display: flex;
-            justify-content: space-around;
-            }
+.tituloFotos{
+    color: #fca64b;
+    }
 
-            .carrousellJacksoneitor{
-            display: flex;
-            justify-content: space-around;
-            }
+footer{
+    margin:10px;
+    }
 
-        .carrousellLean{
-            display: flex;
-            justify-content: space-around;
-           }
+.carrousellSunny{
+    display: flex;
+    justify-content: space-around;
+    }
 
-        }
+.carrousellPupi{
+    display: flex;
+    justify-content: space-around;
+    }
+
+.carrousellJacksoneitor{
+    display: flex;
+    justify-content: space-around;
+    }
+
+.carrousellLean{
+    display: flex;
+    justify-content: space-around;
+    }
+    }
