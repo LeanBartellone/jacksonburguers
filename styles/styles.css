@@ -102,6 +102,7 @@ footer ul li a {
     right: 50px; 
     border:solid; 
     border-color: #e67700;
+    text-align: center;
 }
 
 form{
@@ -192,6 +193,7 @@ footer{
     right: 50px; 
     border:solid; 
     border-color: #e67700;
+    text-align: center;
     }
 
 }
@@ -221,6 +223,7 @@ footer{
     right: 100px; 
     border:solid; 
     border-color: #e67700;
+    text-align: center;
     }
 
 
@@ -316,6 +319,7 @@ footer{
     right: 100px; 
     border:solid; 
     border-color: #e67700;
+    text-align: center;
     }
 
 .colorNav{
