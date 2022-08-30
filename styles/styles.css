@@ -93,12 +93,13 @@ footer ul li a {
 
 #textoFoto{ 
     background-color: #000000;
+    width: 73%;
     font-size: 46px; 
     color:#e67700;
     font-weight: bold;
     position: absolute; 
     top: 700px;
-    right: 100px; 
+    right: 50px; 
     border:solid; 
     border-color: #e67700;
 }
@@ -184,6 +185,7 @@ footer{
 
 #textoFoto{ 
     background-color: #000000;
+    width: 70%;
     font-size: 46px; 
     color:#e67700;
     font-weight: bold;
@@ -269,12 +271,13 @@ footer{
 
 #textoFoto{ 
     background-color: #000000;
+    width: 75%;
     font-size: 100px; 
     color:#e67700;
     font-weight: bold;
     position: absolute; 
-    top: 850px;
-    right: 200px; 
+    top: 750px;
+    right: 100px; 
     border:solid; 
     border-color: #e67700;
     }
