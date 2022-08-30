@@ -35,8 +35,8 @@ footer ul li a {
 
 .tituloRedes{
     position: fixed; 
-    left: 1000px; 
-    top: 555px; 
+    left: 320px; 
+    top: 460px; 
     color: #fca64b;
     margin: 0px;
 }
@@ -44,7 +44,7 @@ footer ul li a {
 .redesSociales{
     position: fixed;
     bottom: 0px;
-    left: 1000px;
+    left: 300px;
     background-color: #000000;
     border-radius: 10px;
     padding: 0px 08px 0px 00px;
@@ -203,6 +203,49 @@ footer{
 
 @media screen and (min-width:600px ) and (orientation: portraid) {
 
+.tituloRedes{
+    position: fixed; 
+    left: 400px; 
+    top: 400px; 
+    color: #fca64b;
+    margin: 0px;
+    }
+    
+.redesSociales{
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 0px 08px 0px 00px;
+    width: 50%;
+    display: inline-block;
+    }
+    
+.redesSociales ul{
+    list-style-type: none; 
+    padding: 0%;
+    }
+    
+.redesSociales ul li{  
+    display: inline-block;
+    background-color: #000000;
+    border: 01px solid #000000;
+    border-radius: 00px;
+    padding: 05px;
+    }
+    
+.redesSociales ul li a{
+    font: size 20px; 
+    text-align:right; 
+    color:#e67700;
+    }
+    
+
+
+
+
+
 .tituloPrincipal{
      background-size: 80px;
     color:#e67700;
@@ -298,14 +341,58 @@ footer{
 /*Diseño para Desktop*/
 
 @media screen and (min-width:1200px ) {
+    
+.tituloRedes{
+    position: fixed; 
+    left: 1000px; 
+    top: 520px; 
+    color: #fca64b;
+    margin: 0px;
+    }
+    
+.redesSociales{
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 0px 08px 0px 00px;
+    width: 60%;
+    display: inline-block;
+    }
+    
+.redesSociales ul{
+    list-style-type: none; 
+    padding: 0%;
+    }
+    
+.redesSociales ul li{  
+    display: inline-block;
+    background-color: #000000;
+    border: 01px solid #000000;
+    border-radius: 00px;
+    padding: 05px;
+    }
+    
+.redesSociales ul li a{
+    font: size 20px; 
+    text-align:right; 
+    color:#e67700;
+    }
+    
 
-    .tituloPrincipal{
-        background-size: 80px;
-        color:#e67700;
-        text-align: center;
-        font-size: 100px;
-        font-family:Arial, Helvetica, sans-serif;
-        font-weight: bold;
+
+
+
+
+
+.tituloPrincipal{
+    background-size: 80px;
+    color:#e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
     }
 
 #textoFoto{ 
