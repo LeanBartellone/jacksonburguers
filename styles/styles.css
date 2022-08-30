@@ -94,7 +94,7 @@ footer ul li a {
 #textoFoto{
     background-color: #000000;
     width: 73%;
-    font-size: 46px; 
+    font-size: 50px; 
     color:#e67700;
     font-weight: bold;
     position: absolute; 
@@ -179,11 +179,11 @@ footer{
     }
 
 
-@media screen and (max-width:599px) and (orientation: landscape) {
+@media screen and (max-width:599px) and (orientation:landscape) {
 
 #textoFoto{
     background-color: #000000;
-    width: 73%;
+    width: 80%;
     font-size: 46px; 
     color:#e67700;
     font-weight: bold;
@@ -200,6 +200,15 @@ footer{
 /*>diseño para tableta*/
 
 @media screen and (min-width:600px ) and (orientation: portraid) {
+
+.tituloPrincipal{
+     background-size: 80px;
+    color:#e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
 
 #textoFoto{ 
     background-color: #000000;
@@ -287,6 +296,15 @@ footer{
 
 @media screen and (min-width:1200px ) {
 
+    .tituloPrincipal{
+        background-size: 80px;
+        color:#e67700;
+        text-align: center;
+        font-size: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
 #textoFoto{ 
     background-color: #000000;
     width: 75%;
@@ -299,9 +317,6 @@ footer{
     border:solid; 
     border-color: #e67700;
     }
-
-
-
 
 .colorNav{
     background-color: #000000;
