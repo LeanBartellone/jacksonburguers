@@ -91,7 +91,7 @@ footer ul li a {
     text-align: center;
 } 
 
-#textoFoto{ 
+#textoFoto{
     background-color: #000000;
     width: 73%;
     font-size: 46px; 
@@ -177,11 +177,29 @@ footer{
     display: flex;
     justify-content: space-around;
     }
-    
+
+
+@media screen and (max-width:599px) and (orientation: landscape) {
+
+#textoFoto{
+    background-color: #000000;
+    width: 73%;
+    font-size: 46px; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 700px;
+    right: 50px; 
+    border:solid; 
+    border-color: #e67700;
+    }
+
+}
+
 
 /*>diseño para tableta*/
 
-@media screen and (min-width:600px ) {
+@media screen and (min-width:600px ) and (orientation: portraid) {
 
 #textoFoto{ 
     background-color: #000000;
