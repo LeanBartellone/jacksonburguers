@@ -1,1 +1,428 @@
-/*# sourceMappingURL=styles.css.map */
+@charset "UTF-8";
+* {
+  color: rgb(255, 255, 255);
+  padding: 0%;
+  margin: 0.05%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-size: 80px;
+  display: block;
+  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+}
+
+body {
+  background-color: #000000;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.45cm;
+  background-color: #000000;
+}
+
+.tituloPrincipal {
+  background-size: 80px;
+  color: #e67700;
+  text-align: center;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+.tituloRedes {
+  position: fixed;
+  left: 320px;
+  top: 460px;
+  color: #fca64b;
+  margin: 0px;
+}
+
+.redesSociales {
+  position: fixed;
+  bottom: 0px;
+  left: 300px;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 0px 8px 0px 0px;
+  width: 50%;
+  display: inline-block;
+}
+
+.redesSociales ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.redesSociales ul li {
+  display: inline-block;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  padding: 5px;
+}
+
+.redesSociales ul li a {
+  font: size 20px;
+  text-align: right;
+  color: #e67700;
+}
+
+.parrafoNosotros {
+  text-align: center;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  line-height: 29px;
+}
+
+.nosDestacamos {
+  text-decoration: underline;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.nosDestacamos li {
+  color: #e67700;
+}
+
+.parrafoContacto {
+  text-align: center;
+}
+
+#textoFoto {
+  background-color: #000000;
+  width: 73%;
+  font-size: 50px;
+  color: #e67700;
+  font-weight: bold;
+  position: absolute;
+  top: 700px;
+  right: 50px;
+  border: solid;
+  border-color: #e67700;
+  text-align: center;
+}
+
+form {
+  margin: 5px;
+}
+
+.jack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  border-bottom: 4px solid #fca64b;
+}
+
+footer {
+  border-top: 4px solid #fca64b;
+}
+
+.colorNav {
+  background-color: #000000;
+  border: 2px solid #e67700;
+  text-align: center;
+}
+
+.colorNav a {
+  transition: 1.5s;
+}
+
+.colorNav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.colorNav a:visited {
+  color: #e67700;
+}
+
+.colorText {
+  color: #fca64b;
+  text-align: center;
+}
+
+.colorText a {
+  transition: 1.5s;
+}
+.colorText:hover {
+  color: #e67700;
+}
+
+.datos li {
+  list-style-type: none;
+}
+
+.tituloFotos {
+  color: #fca64b;
+}
+
+footer {
+  margin: 10px;
+}
+
+.carrousellSunny {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carrousellPupi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carrousellJacksoneitor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carrousellLean {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  #textoFoto {
+    background-color: #000000;
+    width: 80%;
+    font-size: 46px;
+    color: #e67700;
+    font-weight: bold;
+    position: absolute;
+    top: 700px;
+    right: 50px;
+    border: solid;
+    border-color: #e67700;
+    text-align: center;
+  }
+}
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .tituloRedes {
+    position: fixed;
+    left: 400px;
+    top: 400px;
+    color: #fca64b;
+    margin: 0px;
+  }
+  .redesSociales {
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 0px 8px 0px 0px;
+    width: 50%;
+    display: inline-block;
+  }
+  .redesSociales ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+  .redesSociales ul li {
+    display: inline-block;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  ul li {
+    display: inline-block;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .redesSociales ul li a {
+    font: size 20px;
+    text-align: right;
+    color: #e67700;
+  }
+  .tituloPrincipal {
+    background-size: 80px;
+    color: #e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #textoFoto {
+    background-color: #000000;
+    width: 70%;
+    font-size: 46px;
+    color: #e67700;
+    font-weight: bold;
+    position: absolute;
+    top: 700px;
+    right: 100px;
+    border: solid;
+    border-color: #e67700;
+    text-align: center;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  .carrousellSunny {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carrousellPupi {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carrousellJacksoneitor {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carrousellLean {
+    display: flex;
+    justify-content: space-around;
+  }
+  .colorNav {
+    background-color: #000000;
+    border: 2px solid #e67700;
+    text-align: center;
+  }
+  .colorNav a {
+    transition: 1.5s;
+  }
+  .colorNav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .colorNav a:visited {
+    color: #fca64b;
+  }
+  .colorText {
+    color: #fca64b;
+    text-align: center;
+  }
+  .colorText a {
+    transition: 1.5s;
+  }
+  .colorText a:hover {
+    color: #e67700;
+  }
+  .datos li {
+    list-style-type: none;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  footer {
+    margin: 10px;
+  }
+}
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
+  .tituloRedes {
+    position: fixed;
+    left: 1000px;
+    top: 520px;
+    color: #fca64b;
+    margin: 0px;
+  }
+  .redesSociales {
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 0px 8px 0px 0px;
+    width: 60%;
+    display: inline-block;
+  }
+  .redesSociales ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+  .redesSociales ul li {
+    display: inline-block;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .redesSociales ul li a {
+    font: size 20px;
+    text-align: right;
+    color: #e67700;
+  }
+  .tituloPrincipal {
+    background-size: 80px;
+    color: #e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #textoFoto {
+    background-color: #000000;
+    width: 75%;
+    font-size: 100px;
+    color: #e67700;
+    font-weight: bold;
+    position: absolute;
+    top: 750px;
+    right: 100px;
+    border: solid;
+    border-color: #e67700;
+    text-align: center;
+  }
+  .colorNav {
+    background-color: #000000;
+    border: 2px solid #e67700;
+    text-align: center;
+  }
+  .colorNav a {
+    transition: 1.5s;
+  }
+  .colorNav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .colorNav a:visited {
+    color: #fca64b;
+  }
+  .colorText {
+    color: #fca64b;
+    text-align: center;
+  }
+  .colorText a {
+    transition: 1.5s;
+  }
+  .colorText a:hover {
+    color: #e67700;
+  }
+  .datos li {
+    list-style-type: none;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  footer {
+    margin: 10px;
+  }
+  .carrousellSunny {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carrousellPupi {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carrousellJacksoneitor {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carrousellLean {
+    display: flex;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=styles.css.map */
