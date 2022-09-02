@@ -1,0 +1,185 @@
+* {color: rgb(255, 255, 255);}
+
+$footerBackground: #000000
+
+
+header{
+    background-image: linear-gradient(to top, #000000, #111111,#222222, #333333, #555555);
+}
+
+body{
+    background-color: #000000;
+    }
+
+footer {
+    background-color: #000000;
+    }
+
+.tituloRedes{
+    color: #fca64b;
+    }
+
+.redesSociales{
+    background-color: #000000;
+    }
+
+.redesSociales {
+    ul{
+        li{
+            background-color: #000000;
+            border: 01px solid #000000;
+            }
+        }
+    }
+
+.redesSociales {
+    ul{
+        li{
+            a{
+                color: #e67700;
+                }
+            }
+        }
+    }
+
+.nosDestacamos {
+    li{
+        color:#e67700;
+        }
+    }
+
+#textoFoto{
+    background-color: #000000;
+    color:#e67700;
+    border-color: #e67700;
+}
+
+header{
+    border-bottom: 4px solid #fca64b; 
+    }
+
+footer{
+    border-top: 4px solid #fca64b; 
+        }
+
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+}
+
+.colorText{
+    color: #fca64b;
+}
+
+.tituloFotos{
+    color: #fca64b;
+    }
+
+@media screen and (max-width:599px) and (orientation:landscape) {
+    
+#textoFoto{
+    background-color: #000000;
+    color:#e67700;
+    border-color: #e67700;
+    }
+    }
+
+@media screen and (min-width:600px ) and (orientation: portraid){
+
+.tituloRedes{
+    color: #fca64b;
+}
+
+.redesSociales{
+    background-color: #000000;
+}
+
+.redesSociales {
+    ul{
+        li{
+            background-color: #000000;
+            border: 01px solid #000000;
+        }
+    }
+}
+
+.redesSociales {
+    ul{
+        li{
+            a{color: #e67700;}
+        }
+    }
+}
+
+.tituloPrincipal{
+    color:#e67700;
+}
+
+#textoFoto{ 
+    background-color: #000000;
+    color:#e67700;
+    border-color: #e67700;
+}
+
+.tituloFotos{
+    color: #fca64b;
+    }
+
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+}
+
+.colorText{
+    color: #fca64b;
+    }
+
+.tituloFotos{
+    color: #fca64b;
+    }
+}
+
+@media screen and (min-width:1200px ) {
+
+.tituloPrincipal{ color:#e67700}
+
+.tituloFotos{
+    color: #fca64b;
+    }
+    
+.colorText{
+    color: #fca64b;
+}
+
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+}
+
+#textoFoto{ 
+    background-color: #000000;
+    color:#e67700;
+    border-color: #e67700;
+}
+
+.tituloPrincipal{
+color:#e67700;
+}
+
+.redesSociales {
+    ul{
+        li{
+            a{ color: #e67700;}
+        }
+    }
+}
+
+.redesSociales{
+    background-color: #000000;
+}
+
+
+.tituloRedes{
+    color: #ac6418;
+}
+}
