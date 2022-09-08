@@ -1,0 +1,55 @@
+#textoFoto{
+    width: 73%;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute; 
+    top: 700px;
+    right: 50px; 
+    border:solid; 
+    text-align: center;
+}
+
+@media screen and (max-width:599px) and (orientation:landscape) {
+
+#textoFoto{
+    width: 80%;
+    font-size: 46px; 
+    font-weight: bold;
+    position: absolute;
+    top: 700px;
+    right: 50px; 
+    border:solid; 
+    text-align: center;
+}
+}
+
+@media screen and (min-width:600px ) and (orientation: portraid){
+
+#textoFoto{ 
+    background-color: #000000;
+    width: 70%;
+    font-size: 46px; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 700px;
+    right: 100px; 
+    border:solid; 
+    border-color: #e67700;
+    text-align: center;
+}
+}
+
+@media screen and (min-width:1200px ) {
+
+#textoFoto{ 
+    width: 75%;
+    font-size: 100px; 
+    font-weight: bold;
+    position: absolute; 
+    top: 750px;
+    right: 100px; 
+    border:solid; 
+    text-align: center;
+}
+}

@@ -1,0 +1,148 @@
+.tituloRedes{
+    position: fixed; 
+    left: 320px; 
+    top: 460px; 
+    margin: 0px;
+}
+    
+.redesSociales{
+    position: fixed;
+    bottom: 0px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 0px 08px 0px 00px;
+    width: 50%;
+    display: inline-block;
+}
+
+     
+.redesSociales{
+    ul{
+        list-style-type: none;
+        padding: 0%;
+        }
+}
+
+.redesSociales {
+    ul{
+        li{
+            display: inline-block;
+            border-radius: 00px;
+            padding: 05px;
+            }
+        }
+}
+
+.redesSociales {
+    ul{
+        li{
+            a{
+            font: size 20px;
+            text-align: right;
+            }
+        }
+    }
+}
+   
+@media screen and (max-width:599px) and (orientation:landscape) {
+  
+}
+
+@media screen and (min-width:600px ) and (orientation: portraid){
+
+.tituloRedes{
+    position: fixed; 
+    left: 400px; 
+    top: 400px;  
+    margin: 0px;
+    }
+            
+.redesSociales{
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 0px 08px 0px 00px;
+    width: 50%;
+    display: inline-block;
+    }
+            
+.redesSociales{
+    ul{
+        list-style-type: none;
+        padding: 0%;
+        }
+}    
+
+.redesSociales {
+    ul{
+        li{
+        display: inline-block;
+        border-radius: 0px;
+        padding: 05px;
+        }
+    }
+}
+
+.redesSociales {
+    ul{
+        li{
+            a{
+            font-size: 20px;
+            text-align: right;
+            }
+        }
+    }
+}  
+}
+
+@media screen and (min-width:1200px ) {
+
+.tituloRedes{
+    position: fixed; 
+    left: 1000px; 
+    top: 520px; 
+    margin: 0px;
+}
+            
+.redesSociales{
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 0px 08px 0px 00px;
+    width: 60%;
+    display: inline-block;
+}
+
+.redesSociales {
+    ul{
+    list-style-type: none;
+    padding: 0%;
+    }
+}
+
+.redesSociales{
+    ul{
+        li{
+        display: inline-block;
+        background-color: #000000;
+        border: 01px solid #000000;
+        border-radius: 00px;
+        padding: 05px;
+        }
+    }   
+}
+
+.redesSociales {
+    ul{
+        li{
+            a{
+            font: size 20px;
+            text-align: right;
+            }
+        }
+    }
+}
+}
+               

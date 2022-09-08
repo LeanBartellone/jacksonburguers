@@ -1,0 +1,40 @@
+.parrafoContacto{
+    text-align: center;
+} 
+
+form{
+    margin: 5px;
+}
+
+@media screen and (max-width:599px) and (orientation:landscape) {
+
+.parrafoContacto{
+    text-align: center
+} 
+    
+form{
+    margin: 5px;
+}
+}
+
+@media screen and (min-width:600px ) and (orientation: portraid){
+.parrafoContacto{
+    text-align: center
+} 
+    
+form{
+    margin: 5px;
+}
+
+}
+
+@media screen and (min-width:1200px ) {
+
+.parrafoContacto{
+    text-align: center
+} 
+    
+form{
+    margin: 5px;
+}
+}
