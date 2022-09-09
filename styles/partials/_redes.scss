@@ -3,6 +3,7 @@
     left: 320px; 
     top: 460px; 
     margin: 0px;
+    color: map-get($coloresRedes,tituloRedes);
 }
     
 .redesSociales{
@@ -13,6 +14,7 @@
     padding: 0px 08px 0px 00px;
     width: 50%;
     display: inline-block;
+    background-color: map-get($coloresRedes,redesBackground);
 }
 
      
@@ -29,6 +31,8 @@
             display: inline-block;
             border-radius: 00px;
             padding: 05px;
+            background-color: map-get($coloresRedes, redesBackground);
+            border: 01px solid map-get($coloresRedes, redesBorder );
             }
         }
 }
@@ -39,6 +43,7 @@
             a{
             font: size 20px;
             text-align: right;
+            color: map-get($coloresRedes, RedesColorA);
             }
         }
     }
@@ -55,6 +60,7 @@
     left: 400px; 
     top: 400px;  
     margin: 0px;
+    color:map-get($coloresRedes,tituloRedes)
     }
             
 .redesSociales{
@@ -65,6 +71,7 @@
     padding: 0px 08px 0px 00px;
     width: 50%;
     display: inline-block;
+    background-color: map-get($coloresRedes, redesBackground);
     }
             
 .redesSociales{
@@ -80,6 +87,8 @@
         display: inline-block;
         border-radius: 0px;
         padding: 05px;
+        background-color: map-get($coloresRedes, redesBackground);
+        border: 1px solid map-get($coloresRedes,redesBorder);
         }
     }
 }
@@ -90,6 +99,7 @@
             a{
             font-size: 20px;
             text-align: right;
+            color: map-get($coloresRedes,RedesColorA);
             }
         }
     }
@@ -103,6 +113,7 @@
     left: 1000px; 
     top: 520px; 
     margin: 0px;
+    color: map-get($coloresRedes, tituloRedes);
 }
             
 .redesSociales{
@@ -113,6 +124,7 @@
     padding: 0px 08px 0px 00px;
     width: 60%;
     display: inline-block;
+    background-color: map-get($coloresRedes, redesBackground);
 }
 
 .redesSociales {
@@ -126,8 +138,8 @@
     ul{
         li{
         display: inline-block;
-        background-color: #000000;
-        border: 01px solid #000000;
+        background-color:map-get($coloresRedes, redesBackground);
+        border: 01px solid map-get($coloresRedes, redesBackground);
         border-radius: 00px;
         padding: 05px;
         }
@@ -140,6 +152,7 @@
             a{
             font: size 20px;
             text-align: right;
+            color:map-get($coloresRedes, RedesColorA)
             }
         }
     }

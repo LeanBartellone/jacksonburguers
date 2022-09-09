@@ -10,6 +10,12 @@
     list-style-type: none;
 }
 
+.nosDestacamos{
+    li{
+        color:$colorNostros
+    }
+}
+
 @media screen and (max-width:599px) and (orientation:landscape) {
 
 }
