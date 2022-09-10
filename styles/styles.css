@@ -35,7 +35,7 @@ footer ul li a {
     
 .tituloRedes{
     position: fixed; 
-    left: 38%; 
+    left: 45%; 
     top: 76%; 
     color: #fca64b;
     font-size: 115%;
@@ -50,7 +50,12 @@ footer ul li a {
     border:transparent;
 }
 .redesSociales ul{
+    display: inline-block;
+    position: fixed;
     list-style-type: none; 
+    bottom: 12%;
+    width: 50%;
+    left: 48%;
 }
     
 .redesSociales ul li{  
@@ -59,11 +64,18 @@ footer ul li a {
     border:transparent;
 }
 
+.redesSociales ul li a{
+    display: inline-block;
+    background-color: transparent;
+    border: transparent;
+}
+
  .parrafoNosotros{
     text-align: center;
     text-decoration:dotted;
     font-size: 90%; 
     line-height: 100%;
+    margin: 10px;
 }
     
 .nosDestacamos{
@@ -386,7 +398,7 @@ footer{
     border: 01px solid transparent;
     padding: 0.4%;
 }
-        
+
 .tituloPrincipal{
     color:#e67700;
     text-align: center;
