@@ -1,13 +1,11 @@
 /*# sourceMappingURL=styles.css.map */
 *{
     color: rgb(255, 255, 255);
-    padding: 0%;
     margin: 0.05%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
     
 header{
-    background-size: 80px;
     display: block;
     background-image: linear-gradient(to top, #000000, #111111,#222222, #333333, #555555);
 }
@@ -18,97 +16,94 @@ body{
     
 footer {
     text-align:center; 
-    font-size: 0.45cm;
+    font-size: 80%;
     background-color: #000000;
 }
     
 .tituloPrincipal{
-    background-size: 80px;
+    background-size: 80%;
     color:#e67700;
     text-align: center;
-    font-size: 100px;
+    font-size: 160%;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
     
 footer ul li a {
-    text-decoration: none
+    text-decoration: none;
 }
     
 .tituloRedes{
     position: fixed; 
-    left: 320px; 
-    top: 460px; 
+    left: 38%; 
+    top: 76%; 
     color: #fca64b;
-    margin: 0px;
+    font-size: 115%;
 }
     
 .redesSociales{
-    position: fixed;
-    bottom: 0px;
-    left: 300px;
-    background-color: #000000;
-    border-radius: 10px;
-    padding: 0px 08px 0px 00px;
-    width: 50%;
     display: inline-block;
+    position:fixed;
+    bottom: 8%;
+    left: 50%;
+    background-color:transparent;
+    border:transparent;
 }
-    
 .redesSociales ul{
     list-style-type: none; 
-    padding: 0%;
 }
     
 .redesSociales ul li{  
     display: inline-block;
-    background-color: #000000;
-    border: 01px solid #000000;
-    border-radius: 00px;
-    padding: 05px;
+    background-color:transparent;
+    border:transparent;
 }
-    
-.redesSociales ul li a{
-     font: size 20px; 
-     text-align:right; 
-     color:#e67700;
-}
-    
+
  .parrafoNosotros{
-    text-align: center ;
-    text-decoration:dotted; 
-    line-height: 29px;
+    text-align: center;
+    text-decoration:dotted;
+    font-size: 90%; 
+    line-height: 100%;
 }
     
 .nosDestacamos{
-    text-decoration: underline;
-    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
     list-style-type: none;
 }
     
 .nosDestacamos li{
+    text-align:left;
     color: #e67700;
+    font-size: 70%;
 }
     
 .parrafoContacto{
     text-align: center;
+    font-size: 120%;
+    margin: 10%;
 } 
+
+.tituloFormulario{
+    text-align: center;
+}
     
 #textoFoto{
     background-color: #000000;
-    width: 73%;
-    font-size: 50px; 
+    width: 80%;
+    font-size: 200%; 
     color:#e67700;
     font-weight: bold;
     position: absolute; 
-    top: 700px;
-    right: 50px; 
-    border:solid; 
-    border-color: #e67700;
+    top: 60%;
+    right: 10%; 
+    border: 3px solid #e67700;
     text-align: center;
 }
     
 form{
-    margin: 5px;
+    margin: 5%;
+    padding: 2%;
 }
     
 .jack{
@@ -128,16 +123,17 @@ footer{
     
 .colorNav{
     background-color: #000000;
-    border: 2px solid #e67700;
-    text-align: center;
+    border: 5px solid #e67700;
+    left: 20%;
 }
 
 .colorNav a {
     transition: 1.5s;
+    font-size: 96%;
 }
 
 .colorNav a:hover{
-    color:rgb(255, 255, 255) ;
+    color:aqua;
 }
 
 .colorNav a:visited{
@@ -163,6 +159,7 @@ footer{
     
 .tituloFotos{
      color: #fca64b;
+     font-size: 150%;
     }
     
 footer{
@@ -172,21 +169,33 @@ footer{
 .carrousellSunny{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    font-size: 80%;
+    padding: 5%;
 }
     
 .carrousellPupi{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    font-size: 80%;
+    padding: 5%;
 }
     
 .carrousellJacksoneitor{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    font-size: 70%;
+    padding: 5%;
 }
     
 .carrousellLean{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    text-align: center;
+    font-size: 80%;
+    padding: 5%;
 }
     
     
@@ -358,10 +367,11 @@ footer{
 .redesSociales{
     display: inline-block;
     position: fixed;
-    left: 85%;
+    left: 84%;
     background-color:transparent;
     border-radius: 10px;
-    width: 60%;
+    bottom:3%;
+    width: 25%;
     
 }
         
@@ -401,6 +411,7 @@ footer{
 
 .parrafoNosotros{
     text-align: center ;
+    font-size: 100%;
     text-decoration:dotted; 
     line-height: 200%;
     margin: 2%;
@@ -408,13 +419,14 @@ footer{
             
 .nosDestacamos{
     text-decoration:solid;
-    font-size: 25px;
-    list-style-type: style type none;;
+    font-size: 180%;
+    list-style-type: style type none;
 }
             
 .nosDestacamos li{
     color: #e67700;
     margin: 2%;
+    text-align: center;
     }
 
 .parrafoContacto{
@@ -455,6 +467,11 @@ footer{
 .colorText a:hover{
     color: #e67700;
 }
+
+form{
+    margin: 1%;
+    padding: 2%;
+}
     
 .datos li{
     list-style-type: none;
@@ -465,7 +482,7 @@ footer{
 }
     
 footer{
-    margin:10px;
+    margin:1px;
 }
     
 .carrousellSunny{
@@ -473,6 +490,7 @@ footer{
     justify-content: space-around;
     text-align: center;
     margin: 3%;
+    font-size: 120%;
 }
     
 .carrousellPupi{
@@ -480,6 +498,7 @@ footer{
     justify-content: space-around;
     text-align: justify;
     margin:3%;
+    font-size: 120%;
 }
     
 .carrousellJacksoneitor{
@@ -487,6 +506,7 @@ footer{
     justify-content: space-around;
     text-align:justify;
     margin: 5%;
+    font-size: 150%;
     }
     
 .carrousellLean{
@@ -494,6 +514,7 @@ footer{
     justify-content: space-around;
     text-align: justify;
     margin: 5%;
+    font-size: 150%;
     }
         
 }
