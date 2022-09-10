@@ -348,7 +348,7 @@ footer{
         
 .tituloRedes{
     position: fixed; 
-    font-size: 105%;
+    font-size: 110%;
     left: 85%; 
     top: 85%; 
     color: #fca64b;
@@ -356,40 +356,31 @@ footer{
 }
         
 .redesSociales{
+    display: inline-block;
     position: fixed;
-    bottom: 0px;
-    left: 1130px;
+    left: 85%;
     background-color:transparent;
     border-radius: 10px;
-    padding: 10px 05px 05px 00px;
-    width: 63%;
-    display: inline-block;
+    width: 60%;
+    
 }
         
 .redesSociales ul{
     list-style-type: none; 
-    padding: 0%;
+    margin: 1%;
 }
         
 .redesSociales ul li{  
     display: inline-block;
     background-color:transparent;
     border: 01px solid transparent;
-    border-radius: 00px;
-    padding: 05px;
+    padding: 0.4%;
 }
         
-.redesSociales ul li a{
-    font: size 20px; 
-    text-align:right; 
-    color:#e67700;
-}
-    
 .tituloPrincipal{
-    background-size: 80px;
     color:#e67700;
     text-align: center;
-    font-size: 100px;
+    font-size: 600%;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -411,21 +402,21 @@ footer{
 .parrafoNosotros{
     text-align: center ;
     text-decoration:dotted; 
-    line-height: 29px;
-    margin: 30px;
+    line-height: 200%;
+    margin: 2%;
 }
             
 .nosDestacamos{
-    text-decoration: underline;
+    text-decoration:solid;
     font-size: 25px;
-    list-style-type: none;
+    list-style-type: style type none;;
 }
             
 .nosDestacamos li{
     color: #e67700;
     margin: 2%;
     }
-            
+
 .parrafoContacto{
         text-align: center;
         margin: 2%;
@@ -438,10 +429,10 @@ footer{
     
 .colorNav a {
     transition: 1.5s;
-    text-align: right;
-    justify-content:space-evenly;
-    font-size: 110%;
-    margin: 15px;
+    justify-content:right;
+    text-align: center;
+    font-size: 130%;
+    padding: 4%;
 }
     
 .colorNav a:hover{
@@ -480,26 +471,29 @@ footer{
 .carrousellSunny{
     display: flex;
     justify-content: space-around;
+    text-align: center;
     margin: 3%;
 }
     
 .carrousellPupi{
     display: flex;
     justify-content: space-around;
+    text-align: justify;
     margin:3%;
 }
     
 .carrousellJacksoneitor{
     display: flex;
     justify-content: space-around;
+    text-align:justify;
     margin: 5%;
     }
     
 .carrousellLean{
     display: flex;
     justify-content: space-around;
+    text-align: justify;
     margin: 5%;
     }
         
 }
-    
