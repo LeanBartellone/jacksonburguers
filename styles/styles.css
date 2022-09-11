@@ -379,10 +379,10 @@ footer{
 .redesSociales{
     display: inline-block;
     position: fixed;
-    left: 84%;
+    left:25px;
     background-color:transparent;
     border-radius: 10px;
-    bottom:3%;
+    bottom: 30%;
     width: 25%;
     
 }
@@ -390,6 +390,8 @@ footer{
 .redesSociales ul{
     list-style-type: none; 
     margin: 1%;
+    bottom: 2%;
+    left: 82%;
 }
         
 .redesSociales ul li{  
@@ -414,7 +416,7 @@ footer{
     color:#e67700;
     font-weight: bold;
     position: absolute; 
-    top: 135%;
+    top: 160%;
     right: 10%; 
     border:solid; 
     border-color: #e67700;
