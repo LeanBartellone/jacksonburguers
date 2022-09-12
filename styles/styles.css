@@ -38,7 +38,7 @@ footer ul li a {
     left: 52%; 
     top: 76%; 
     color: #fca64b;
-    font-size: 98%;
+    font-size: 90%;
 }
     
 .redesSociales{
@@ -142,14 +142,6 @@ footer{
 .colorNav a {
     transition: 1.5s;
     font-size: 96%;
-}
-
-.colorNav a:hover{
-    color:aqua;
-}
-
-.colorNav a:visited{
-    color: #e67700;
 }
 
 .colorText{
