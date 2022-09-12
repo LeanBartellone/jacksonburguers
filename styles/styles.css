@@ -165,6 +165,7 @@ footer{
 .datos li{
     list-style-type: none;
 }
+
     
 .tituloFotos{
      color: #fca64b;
@@ -465,27 +466,25 @@ footer{
     font-size: 130%;
     padding: 4%;
 }
-    
-.colorNav a:hover{
-    color:rgb(255, 255, 255);
-}
-    
-.colorNav a:visited{
-     color: #fca64b;
-}
-    
+        
 .colorText{
     color: #fca64b;
     text-align: center;
 }
     
-.colorText a{
-    transition: 1.5s;
+.colorNav a{
+    transition: 2s;
 }
-    
-.colorText a:hover{
-    color: #e67700;
+
+.colorNav a:visited{
+     color:#e67700;
 }
+
+
+.colorNav a:hover{
+    color: #ffffff;
+}
+
 
 form{
     margin: 1%;
@@ -493,10 +492,25 @@ form{
 }
     
 .datos li{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    align-items:center;
     list-style-type: none;
-    text-align: center;
+    text-align:center
 }
     
+
+.datos p{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    align-items:center;
+    list-style-type: none;
+    text-align:center
+    }
+}
+
 .tituloFotos{
     color: #fca64b;
 }
@@ -539,5 +553,4 @@ footer{
     margin: auto;
     font-size: 150%;
     align-items: center;
-}
 }
