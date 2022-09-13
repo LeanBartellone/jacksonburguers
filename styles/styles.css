@@ -460,11 +460,11 @@ footer{
 }
     
 .colorNav a {
-    transition: 1.5s;
-    justify-content:right;
+    transition: 2.5s;
+    align-items:center;
     text-align: center;
     font-size: 130%;
-    padding: 4%;
+    padding: 1%;
 }
         
 .colorText{
@@ -484,7 +484,6 @@ footer{
 .colorNav a:hover{
     color: #ffffff;
 }
-
 
 form{
     margin: 1%;
