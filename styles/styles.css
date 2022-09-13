@@ -1,15 +1,9 @@
-/*# sourceMappingURL=styles.css.map */
 @charset "UTF-8";
 * {
   color: rgb(255, 255, 255);
-  padding: 0%;
-  margin: 0.05%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
-  background-size: 80px;
-  display: block;
   background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
 }
 
@@ -18,62 +12,249 @@ body {
 }
 
 footer {
-  text-align: center;
-  font-size: 0.45cm;
   background-color: #000000;
 }
 
+.tituloRedes {
+  color: #fca64b;
+}
+
+.redesSociales {
+  background-color: #000000;
+}
+
+.redesSociales ul li {
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+.redesSociales ul li a {
+  color: #e67700;
+}
+
+.nosDestacamos li {
+  color: #e67700;
+}
+
+#textoFoto {
+  background-color: #000000;
+  color: #e67700;
+  border-color: #e67700;
+}
+
+header {
+  border-bottom: 4px solid #fca64b;
+}
+
+footer {
+  border-top: 4px solid #fca64b;
+}
+
+.colorNav {
+  background-color: #000000;
+  border: 2px solid #e67700;
+}
+
+.colorText {
+  color: #fca64b;
+}
+
+.tituloFotos {
+  color: #fca64b;
+}
+
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  #textoFoto {
+    background-color: #000000;
+    color: #e67700;
+    border-color: #e67700;
+  }
+}
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .tituloRedes {
+    color: #fca64b;
+  }
+  .redesSociales {
+    background-color: #000000;
+  }
+  .redesSociales ul li {
+    background-color: #000000;
+    border: 1px solid #000000;
+  }
+  .redesSociales ul li a {
+    color: #e67700;
+  }
+  .tituloPrincipal {
+    color: #e67700;
+  }
+  #textoFoto {
+    background-color: #000000;
+    color: #e67700;
+    border-color: #e67700;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  .colorNav {
+    background-color: #000000;
+    border: 2px solid #e67700;
+  }
+  .colorText {
+    color: #fca64b;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tituloPrincipal {
+    color: #e67700;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  .colorText {
+    color: #fca64b;
+  }
+  .colorNav {
+    background-color: #000000;
+    border: 2px solid #e67700;
+  }
+  #textoFoto {
+    background-color: #000000;
+    color: #e67700;
+    border-color: #e67700;
+  }
+  .tituloPrincipal {
+    color: #e67700;
+  }
+  .redesSociales ul li a {
+    color: #e67700;
+  }
+  .redesSociales {
+    background-color: #000000;
+  }
+  .tituloRedes {
+    color: #ac6418;
+  }
+}
+#textoFoto {
+  width: 73%;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 700px;
+  right: 50px;
+  border: solid;
+  text-align: center;
+  color: #e67700;
+  background-color: #000000;
+  border: 1px #e67700;
+}
+
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  #textoFoto {
+    width: 80%;
+    font-size: 46px;
+    font-weight: bold;
+    position: absolute;
+    top: 700px;
+    right: 50px;
+    border: solid;
+    text-align: center;
+    color: #e67700;
+    background-color: #000000;
+    border: 1px #e67700;
+  }
+}
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  #textoFoto {
+    background-color: #000000;
+    width: 70%;
+    font-size: 46px;
+    color: #e67700;
+    font-weight: bold;
+    position: absolute;
+    top: 700px;
+    right: 100px;
+    border: solid;
+    border-color: #e67700;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #textoFoto {
+    width: 75%;
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 750px;
+    right: 100px;
+    border: solid;
+    text-align: center;
+    color: #e67700;
+    border: 1px #e67700;
+    background-color: #000000;
+  }
+}
+.parrafoContacto {
+  text-align: center;
+}
+
+form {
+  margin: 5px;
+}
+
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  .parrafoContacto {
+    text-align: center;
+  }
+  form {
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .parrafoContacto {
+    text-align: center;
+  }
+  form {
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .parrafoContacto {
+    text-align: center;
+  }
+  form {
+    margin: 5px;
+  }
+}
 .tituloPrincipal {
   background-size: 80px;
-  color: #e67700;
   text-align: center;
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
-footer ul li a {
-  text-decoration: none;
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .tituloPrincipal {
+    background-size: 80px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
 }
-
-.tituloRedes {
-  position: fixed;
-  left: 320px;
-  top: 460px;
-  color: #fca64b;
-  margin: 0px;
+@media screen and (min-width: 1200px) {
+  .tituloPrincipal {
+    background-size: 80px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
 }
-
-.redesSociales {
-  position: fixed;
-  bottom: 0px;
-  left: 300px;
-  background-color: #000000;
-  border-radius: 10px;
-  padding: 0px 8px 0px 0px;
-  width: 50%;
-  display: inline-block;
-}
-
-.redesSociales ul {
-  list-style-type: none;
-  padding: 0%;
-}
-
-.redesSociales ul li {
-  display: inline-block;
-  background-color: #000000;
-  border: 1px solid #000000;
-  border-radius: 0px;
-  padding: 5px;
-}
-
-.redesSociales ul li a {
-  font: size 20px;
-  text-align: right;
-  color: #e67700;
-}
-
 .parrafoNosotros {
   text-align: center;
   -webkit-text-decoration: dotted;
@@ -91,28 +272,138 @@ footer ul li a {
   color: #e67700;
 }
 
-.parrafoContacto {
+footer {
   text-align: center;
-}
-
-#textoFoto {
+  font-size: 0.45cm;
   background-color: #000000;
-  width: 73%;
-  font-size: 50px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer {
+  margin: 10px;
+}
+
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  footer {
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    margin: 10px;
+  }
+}
+.tituloRedes {
+  position: fixed;
+  left: 320px;
+  top: 460px;
+  margin: 0px;
+  color: #fca64b;
+}
+
+.redesSociales {
+  position: fixed;
+  bottom: 0px;
+  left: 300px;
+  border-radius: 10px;
+  padding: 0px 8px 0px 0px;
+  width: 50%;
+  display: inline-block;
+  background-color: #000000;
+}
+
+.redesSociales ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.redesSociales ul li {
+  display: inline-block;
+  border-radius: 0px;
+  padding: 5px;
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+.redesSociales ul li a {
+  font: size 20px;
+  text-align: right;
   color: #e67700;
-  font-weight: bold;
-  position: absolute;
-  top: 700px;
-  right: 50px;
-  border: solid;
-  border-color: #e67700;
-  text-align: center;
 }
 
-form {
-  margin: 5px;
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .tituloRedes {
+    position: fixed;
+    left: 400px;
+    top: 400px;
+    margin: 0px;
+    color: #fca64b;
+  }
+  .redesSociales {
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 0px 8px 0px 0px;
+    width: 50%;
+    display: inline-block;
+    background-color: #000000;
+  }
+  .redesSociales ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+  .redesSociales ul li {
+    display: inline-block;
+    border-radius: 0px;
+    padding: 5px;
+    background-color: #000000;
+    border: 1px solid #000000;
+  }
+  .redesSociales ul li a {
+    font-size: 20px;
+    text-align: right;
+    color: #e67700;
+  }
 }
-
+@media screen and (min-width: 1200px) {
+  .tituloRedes {
+    position: fixed;
+    left: 1000px;
+    top: 520px;
+    margin: 0px;
+    color: #fca64b;
+  }
+  .redesSociales {
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 0px 8px 0px 0px;
+    width: 60%;
+    display: inline-block;
+    background-color: #000000;
+  }
+  .redesSociales ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+  .redesSociales ul li {
+    display: inline-block;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .redesSociales ul li a {
+    font: size 20px;
+    text-align: right;
+    color: #e67700;
+  }
+}
 .jack {
   display: flex;
   flex-direction: column;
@@ -120,34 +411,25 @@ form {
   justify-content: center;
 }
 
-header {
-  border-bottom: 4px solid #fca64b;
-}
-
-footer {
-  border-top: 4px solid #fca64b;
+.datos li {
+  list-style-type: none;
 }
 
 .colorNav {
-  background-color: #000000;
-  border: 2px solid #e67700;
   text-align: center;
 }
 
 .colorNav a {
   transition: 1.5s;
 }
-
-.colorNav a:hover {
+.colorNav:hover {
   color: rgb(255, 255, 255);
 }
-
-.colorNav a:visited {
+.colorNav:visited {
   color: #e67700;
 }
 
 .colorText {
-  color: #fca64b;
   text-align: center;
 }
 
@@ -158,18 +440,58 @@ footer {
   color: #e67700;
 }
 
-.datos li {
-  list-style-type: none;
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .datos li {
+    list-style-type: none;
+  }
+  .colorNav {
+    text-align: center;
+  }
+  .colorNav a {
+    transition: 1.5s;
+  }
+  .colorNav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .colorNav a:visited {
+    color: #fca64b;
+  }
+  .colorText {
+    text-align: center;
+  }
+  .colorText a {
+    transition: 1.5s;
+  }
+  .colorText a:hover {
+    color: #e67700;
+  }
 }
-
-.tituloFotos {
-  color: #fca64b;
+@media screen and (min-width: 1200px) {
+  .datos li {
+    list-style: none;
+  }
+  .colorNav {
+    text-align: center;
+  }
+  .colorNav a {
+    transition: 1.5s;
+  }
+  .colorNav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .colorNav a:visited {
+    color: #fca64b;
+  }
+  .colorText {
+    text-align: center;
+  }
+  .colorText a {
+    transition: 1.5s;
+  }
+  .colorText a:hover {
+    color: #e67700;
+  }
 }
-
-footer {
-  margin: 10px;
-}
-
 .carrousellSunny {
   display: flex;
   justify-content: space-around;
@@ -190,87 +512,7 @@ footer {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 599px) and (orientation: landscape) {
-  #textoFoto {
-    background-color: #000000;
-    width: 80%;
-    font-size: 46px;
-    color: #e67700;
-    font-weight: bold;
-    position: absolute;
-    top: 700px;
-    right: 50px;
-    border: solid;
-    border-color: #e67700;
-    text-align: center;
-  }
-}
-/*>diseño para tableta*/
 @media screen and (min-width: 600px) and (orientation: portraid) {
-  .tituloRedes {
-    position: fixed;
-    left: 400px;
-    top: 400px;
-    color: #fca64b;
-    margin: 0px;
-  }
-  .redesSociales {
-    position: fixed;
-    bottom: 0px;
-    left: 1000px;
-    background-color: #000000;
-    border-radius: 10px;
-    padding: 0px 8px 0px 0px;
-    width: 50%;
-    display: inline-block;
-  }
-  .redesSociales ul {
-    list-style-type: none;
-    padding: 0%;
-  }
-  .redesSociales ul li {
-    display: inline-block;
-    background-color: #000000;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    padding: 5px;
-  }
-  ul li {
-    display: inline-block;
-    background-color: #000000;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    padding: 5px;
-  }
-  .redesSociales ul li a {
-    font: size 20px;
-    text-align: right;
-    color: #e67700;
-  }
-  .tituloPrincipal {
-    background-size: 80px;
-    color: #e67700;
-    text-align: center;
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-  #textoFoto {
-    background-color: #000000;
-    width: 70%;
-    font-size: 46px;
-    color: #e67700;
-    font-weight: bold;
-    position: absolute;
-    top: 700px;
-    right: 100px;
-    border: solid;
-    border-color: #e67700;
-    text-align: center;
-  }
-  .tituloFotos {
-    color: #fca64b;
-  }
   .carrousellSunny {
     display: flex;
     justify-content: space-around;
@@ -287,129 +529,8 @@ footer {
     display: flex;
     justify-content: space-around;
   }
-  .colorNav {
-    background-color: #000000;
-    border: 2px solid #e67700;
-    text-align: center;
-  }
-  .colorNav a {
-    transition: 1.5s;
-  }
-  .colorNav a:hover {
-    color: rgb(255, 255, 255);
-  }
-  .colorNav a:visited {
-    color: #fca64b;
-  }
-  .colorText {
-    color: #fca64b;
-    text-align: center;
-  }
-  .colorText a {
-    transition: 1.5s;
-  }
-  .colorText a:hover {
-    color: #e67700;
-  }
-  .datos li {
-    list-style-type: none;
-  }
-  .tituloFotos {
-    color: #fca64b;
-  }
-  footer {
-    margin: 10px;
-  }
 }
-/*Diseño para Desktop*/
 @media screen and (min-width: 1200px) {
-  .tituloRedes {
-    position: fixed;
-    left: 1000px;
-    top: 520px;
-    color: #fca64b;
-    margin: 0px;
-  }
-  .redesSociales {
-    position: fixed;
-    bottom: 0px;
-    left: 1000px;
-    background-color: #000000;
-    border-radius: 10px;
-    padding: 0px 8px 0px 0px;
-    width: 60%;
-    display: inline-block;
-  }
-  .redesSociales ul {
-    list-style-type: none;
-    padding: 0%;
-  }
-  .redesSociales ul li {
-    display: inline-block;
-    background-color: #000000;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    padding: 5px;
-  }
-  .redesSociales ul li a {
-    font: size 20px;
-    text-align: right;
-    color: #e67700;
-  }
-  .tituloPrincipal {
-    background-size: 80px;
-    color: #e67700;
-    text-align: center;
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-  #textoFoto {
-    background-color: #000000;
-    width: 75%;
-    font-size: 100px;
-    color: #e67700;
-    font-weight: bold;
-    position: absolute;
-    top: 750px;
-    right: 100px;
-    border: solid;
-    border-color: #e67700;
-    text-align: center;
-  }
-  .colorNav {
-    background-color: #000000;
-    border: 2px solid #e67700;
-    text-align: center;
-  }
-  .colorNav a {
-    transition: 1.5s;
-  }
-  .colorNav a:hover {
-    color: rgb(255, 255, 255);
-  }
-  .colorNav a:visited {
-    color: #fca64b;
-  }
-  .colorText {
-    color: #fca64b;
-    text-align: center;
-  }
-  .colorText a {
-    transition: 1.5s;
-  }
-  .colorText a:hover {
-    color: #e67700;
-  }
-  .datos li {
-    list-style-type: none;
-  }
-  .tituloFotos {
-    color: #fca64b;
-  }
-  footer {
-    margin: 10px;
-  }
   .carrousellSunny {
     display: flex;
     justify-content: space-around;
@@ -427,3 +548,15 @@ footer {
     justify-content: space-around;
   }
 }
+* {
+  padding: 0%;
+  margin: 0.05%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+/*>diseño para tableta*/
+/*Diseño para Desktop*//*# sourceMappingURL=styles.css.map */

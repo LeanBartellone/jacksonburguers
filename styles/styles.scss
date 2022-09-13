@@ -1,4 +1,4 @@
-@import"./partials/maps","./partials/fotoMain","./partials/contacto", "./partials/header","./partials/nosotros","./partials/colors","./partials/footer","./partials/redes", "./partials/navBar", "./partials/carrousell" ;
+@import"./partials/maps","./partials/colors","./partials/fotoMain","./partials/contacto", "./partials/header","./partials/nosotros","./partials/footer","./partials/redes", "./partials/navBar", "./partials/carrousell" ;
 
 *{
     padding: 0%;
@@ -7,7 +7,7 @@
 }  
 
 body {
-    background-color:$bodyBackgroud ;
+    background-color:$bodyBackground ;
 }
     
 @media screen and (max-width:599px) and (orientation:landscape) {
