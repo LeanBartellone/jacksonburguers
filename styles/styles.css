@@ -497,24 +497,29 @@ form{
     margin: 1%;
     padding: 2%;
 }
-    
-.datos li{
+
+.datos{
     display: flex;
-    position: relative;
-    left: 120%;
-    align-items:center;
-    list-style-type: none;
-    text-align:center
+    flex-direction:column;
+    text-align: center;
+}
+    
+.telefono{
+    color: white;
+    font-size: 15px;
 }
 
-.datos p{
-    display: flex;
-    position: absolute;
-    left: 30%;
-    align-items:center;
-    list-style-type: none;
-    text-align:center
-    }
+.direccion{
+    color:white;
+    font-size: 25px;
+}
+
+.copy{
+    color:white;
+    font-size: 12px;
+}
+
+
 
 
 .tituloFotos{
