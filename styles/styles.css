@@ -404,9 +404,9 @@ footer{
 
 .bodyForm{
     background-image: url("../images/fondoformulario.jpg");
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-attachment:fixed;
     margin: 0%;
     box-sizing: border-box;
@@ -414,7 +414,7 @@ footer{
 
 form{
     background-color: #000000;
-    width: 450px;
+    width: 500px;
     margin: auto;
     border: 3px solid #e67700;
     margin-bottom: 20px;
@@ -428,7 +428,6 @@ legend{
 }
 
 label{
-    align-items: center;
     font-size: 20px;
     color: #e67700;
     background-color:#000000;
@@ -449,11 +448,11 @@ textarea{
 .opciones{
    text-align: center;
    font-size: 25px;
-   width: 100%;
 }
 
-button{
+.tituloParrafo{
     text-align: center;
+    background-color: #000000;
 }
 
 .tituloRedes{
