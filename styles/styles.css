@@ -95,15 +95,48 @@ footer ul li a {
     font-size: 70%;
 }
     
-.parrafoContacto{
-    text-align: center;
-    font-size: 120%;
-    margin: 10%;
-} 
+.bodyForm{
+    background-image: url("../images/homepic.jpg");
+    background-size: 100vh 100vw;
+    background-attachment: fixed;
+    margin: 0%;
+    box-sizing: border-box;
+}
 
-.tituloFormulario{
+form{
+width: 450px;
+margin: auto;
+border: 3px solid #e67700;
+margin-bottom: 20px;
+}
+
+legend{
+    text-align: center;
+    font-size: 50px;
+}
+
+input, textarea{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    min-height: 50px;
+    max-height: 100px;
+}
+
+.opciones{
+   text-align: center;
+   font-size: 25px;
+   width: 100%;
+}
+
+button{
     text-align: center;
 }
+
     
 #textoFoto{
     background-color: #000000;
@@ -368,7 +401,61 @@ footer{
     /*Diseño para Desktop*/
     
 @media screen and (min-width:1200px ) {
-        
+
+.bodyForm{
+    background-image: url("../images/fondoformulario.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: #000000;
+    width: 450px;
+    margin: auto;
+    border: 3px solid #e67700;
+    margin-bottom: 20px;
+}
+
+legend{
+    text-align: center;
+    font-size: 50px;
+    color: #e67700;
+    background-color:#000000;
+}
+
+label{
+    align-items: center;
+    font-size: 20px;
+    color: #e67700;
+    background-color:#000000;
+}
+
+input, textarea{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    min-height: 50px;
+    max-height: 100px;
+}
+
+.opciones{
+   text-align: center;
+   font-size: 25px;
+   width: 100%;
+}
+
+button{
+    text-align: center;
+}
+
 .tituloRedes{
     position: fixed; 
     font-size: 110%;
@@ -439,8 +526,8 @@ footer{
     text-align: center;
     font-size: 100%;
     text-decoration:dotted; 
-    line-height: 200%;
-    margin: 2%;
+    line-height: 150%;
+    margin: 1%;
 }
             
 .nosDestacamos{
@@ -488,14 +575,8 @@ footer{
      color:#e67700;
 }
 
-
 .colorNav a:hover{
     color: #ffffff;
-}
-
-form{
-    margin: 1%;
-    padding: 2%;
 }
 
 .datos{
@@ -518,9 +599,6 @@ form{
     color:white;
     font-size: 12px;
 }
-
-
-
 
 .tituloFotos{
     color: #fca64b;
