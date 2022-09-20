@@ -94,50 +94,7 @@ footer ul li a {
     color: #e67700;
     font-size: 70%;
 }
-    
-.bodyForm{
-    background-image: url("../images/homepic.jpg");
-    background-size: 100vh 100vw;
-    background-attachment: fixed;
-    margin: 0%;
-    box-sizing: border-box;
-}
 
-form{
-width: 450px;
-margin: auto;
-border: 3px solid #e67700;
-margin-bottom: 20px;
-}
-
-legend{
-    text-align: center;
-    font-size: 50px;
-}
-
-input, textarea{
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-textarea{
-    min-height: 50px;
-    max-height: 100px;
-}
-
-.opciones{
-   text-align: center;
-   font-size: 25px;
-   width: 100%;
-}
-
-button{
-    text-align: center;
-}
-
-    
 #textoFoto{
     background-color: #000000;
     width: 80%;
@@ -149,11 +106,6 @@ button{
     right: 10%; 
     border: 3px solid #e67700;
     text-align: center;
-}
-    
-form{
-    margin: 5%;
-    padding: 2%;
 }
     
 .jack{
@@ -408,33 +360,34 @@ footer{
     background-repeat: no-repeat;
     background-size:contain;
     background-attachment:fixed;
-    margin: 0%;
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 
 form{
     background-color: #000000;
     width: 500px;
     margin: auto;
-    border: 3px solid #e67700;
+    border: 5px solid #e67700;
     margin-bottom: 20px;
 }
 
 legend{
     text-align: center;
     font-size: 50px;
-    color: #e67700;
+    color: #fca64b;
     background-color:#000000;
 }
 
 label{
+    width: 80%;
     font-size: 20px;
-    color: #e67700;
+    color:#fca64b;
     background-color:#000000;
+    margin: 10px;
 }
 
 input, textarea{
-    width: 100%;
+    width: 90%;
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
@@ -443,16 +396,29 @@ input, textarea{
 textarea{
     min-height: 50px;
     max-height: 100px;
+    width: 80%;
 }
 
 .opciones{
    text-align: center;
    font-size: 25px;
+   width: 80%;
+   text-decoration-line:underline;
 }
 
 .tituloParrafo{
     text-align: center;
     background-color: #000000;
+}
+
+button{
+    margin: 15px;
+}
+
+.checkbox{
+    width: 100%;
+    display:flex;
+    position:sticky
 }
 
 .tituloRedes{
@@ -512,6 +478,7 @@ textarea{
     top: 160%;
     right:10%; 
     text-align: center;
+    transition: all 1.5s;
 }
 
 #textoFoto:hover{
@@ -601,6 +568,7 @@ textarea{
 
 .tituloFotos{
     color: #fca64b;
+    font-size: 50px;
 }
 
 footer{
@@ -611,35 +579,41 @@ footer{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: auto;
-    font-size: 180%;
+    margin: 15px;;
+    font-size: 150%;
     align-items: center;
+    border:5px solid #fca64b;
+    width: 98%;
 }
     
 .carrousellPupi{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin:auto;
-    font-size: 190%;
+    font-size: 150%;
     align-items: center;
+    border: 5px solid #fca64b;
+    margin: 15px;
+    width: 98%;  
 }
     
 .carrousellJacksoneitor{
     display: flex;
     justify-content: space-around;
     text-align:center;
-    margin: auto;
+    margin: 30px;
     font-size: 150%;
     align-items: center;
+    border: 5px solid #fca64b;
     }
     
 .carrousellLean{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: auto;
+    margin: 30px;
     font-size: 150%;
     align-items: center;
+    border: 5px solid #fca64b;
 }
 }
