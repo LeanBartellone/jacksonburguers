@@ -33,42 +33,46 @@ footer ul li a {
 }
     
 .tituloRedes{
-    position: fixed; 
-    left: 52%; 
-    top: 76%; 
+    position: sticky; 
     color: #fca64b;
-    font-size: 93%;
+    align-items: center;
+    text-align: center;
+    font-size: 120%;
     z-index: 1;
 }
     
 .redesSociales{
-    display: inline-block;
-    position:fixed;
-    bottom: 8%;
-    left: 50%;
+    position:sticky;
+    text-align: center;
+    align-items: center;
     background-color:transparent;
     border:transparent;
     z-index: 1;
 }
 .redesSociales ul{
-    display: inline-block;
-    position: fixed;
-    list-style-type: none; 
-    bottom: 12%;
-    width: 80%;
-    left: 48%;
+    display:flex;
+    position: sticky;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
     z-index: 1;
 }
-    
+
 .redesSociales ul li{  
-    display: inline-block;
+    display: flex;
+    position:sticky;
+    margin-left: 10%;
+    text-align: center;
+    align-items: center;
     background-color:transparent;
     border:transparent;
     z-index: 1;
 }
 
 .redesSociales ul li a{
-    display: inline-block;
+    display: flex;
+    position: sticky;
+    left: 50%;
     background-color: transparent;
     border: transparent;
     z-index: 1;
@@ -86,6 +90,8 @@ footer ul li a {
     text-align: center;
     text-decoration: none;
     list-style-type: none;
+    font-size: 90%;
+    width: 100%;
 }
     
 .nosDestacamos li{
@@ -125,10 +131,9 @@ footer{
 .colorNav{
     background-color: #000000;
     border: 5px solid #e67700;
-    left: 20%;
+    left: 15%;
     color: #fca64b;
-    text-align: center;
-    width: 98%;
+    width: 100%;
 }
 
 .colorNav a {
@@ -192,22 +197,25 @@ footer{
 .telefono{
     color: white;
     font-size: 10px;
+    text-align: center;
 }
 
 .direccion{
     color:white;
     font-size: 10px;
+    text-align: center;
 }
 
 .datos{
     display: flex;
     flex-direction:column;
-    text-align: left;
+    text-align: center;
 }
 
 .copy{
     color:white;
     font-size: 10px;
+    text-align: center;
 }
 
 form{
