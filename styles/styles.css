@@ -126,35 +126,28 @@ footer{
     background-color: #000000;
     border: 5px solid #e67700;
     left: 20%;
+    color: #fca64b;
+    text-align: center;
+    width: 98%;
 }
 
 .colorNav a {
     transition: 1.5s;
-    font-size: 96%;
+    font-size: 100%;
 }
 
-.colorText{
-    color: #fca64b;
-    text-align: center;
-}
-
-.colorText a{
-     transition: 1.5s;
-}
-
-.colorText a:hover{
+.colorNav a:visited{
      color: #e67700;
 }
 
 .datos li{
     list-style-type: none;
 }
-
-    
+   
 .tituloFotos{
      color: #fca64b;
      font-size: 150%;
-    }
+}
     
 footer{
      margin:10px;
@@ -195,13 +188,92 @@ footer{
     font-size: 80%;
     padding: 5%;
 }
+    
+.telefono{
+    color: white;
+    font-size: 10px;
+}
+
+.direccion{
+    color:white;
+    font-size: 10px;
+}
 
 .datos{
     display: flex;
     flex-direction:column;
     text-align: left;
 }
-    
+
+.copy{
+    color:white;
+    font-size: 10px;
+}
+
+form{
+    background-color: #000000;
+    width: 300px;
+    margin: auto;
+    border: 5px solid #e67700;
+    margin-bottom: 30px;
+}
+
+legend{
+    text-align: center;
+    font: size 30px;
+    color: #fca64b;
+    background-color:#000000;
+}
+
+label{
+    width: 80%;
+    font-size: 15px;
+    color:#fca64b;
+    background-color:#000000;
+    margin: 10px;
+}
+
+input, textarea{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    min-height: 50px;
+    max-height: 100px;
+    width: 90%;
+}
+
+.opciones{
+   text-align: center;
+   font-size: 20px;
+   width: 90%;
+   text-decoration-line:underline;
+}
+
+.tituloParrafo{
+    text-align: center;
+    background-color: #000000;
+}
+
+button{
+    margin: 15px;
+}
+
+.checkbox{
+    width: 100%;
+    display:flex;
+    position:sticky
+}
+
+
+
+
+
+
+
     
 @media screen and (max-width:599px) and (orientation:landscape) {
     
