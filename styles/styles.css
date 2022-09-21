@@ -14,9 +14,8 @@ body{
     background-color: #000000;
 }
     
-footer {
-    text-align:center; 
-    font-size: 80%;
+footer { 
+    font-size: 55%;
     background-color: #000000;
 }
     
@@ -38,7 +37,7 @@ footer ul li a {
     left: 52%; 
     top: 76%; 
     color: #fca64b;
-    font-size: 90%;
+    font-size: 93%;
     z-index: 1;
 }
     
@@ -56,7 +55,7 @@ footer ul li a {
     position: fixed;
     list-style-type: none; 
     bottom: 12%;
-    width: 50%;
+    width: 80%;
     left: 48%;
     z-index: 1;
 }
@@ -92,7 +91,7 @@ footer ul li a {
 .nosDestacamos li{
     text-align:left;
     color: #e67700;
-    font-size: 70%;
+    font-size: 80%;
 }
 
 #textoFoto{
@@ -102,7 +101,7 @@ footer ul li a {
     color:#e67700;
     font-weight: bold;
     position: absolute; 
-    top: 60%;
+    top: 70%;
     right: 10%; 
     border: 3px solid #e67700;
     text-align: center;
@@ -195,6 +194,12 @@ footer{
     text-align: center;
     font-size: 80%;
     padding: 5%;
+}
+
+.datos{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
 }
     
     
@@ -487,7 +492,6 @@ button{
     background-color: #e67700;
 }
 
-
 .parrafoNosotros{
     text-align: center;
     font-size: 100%;
@@ -505,7 +509,8 @@ button{
 .nosDestacamos li{
     color: #e67700;
     margin: 2%;
-    text-align: center;
+    text-align:center;
+    font-size: 100%;  
     }
 
 .parrafoContacto{
@@ -524,7 +529,7 @@ button{
     transition: 2.5s;
     align-items:center;
     text-align: center;
-    font-size: 130%;
+    font-size: 180%;
     padding: 1%;
 }
         
