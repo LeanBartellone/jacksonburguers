@@ -276,29 +276,6 @@ button{
     position:sticky
 }
 
-
-
-
-
-
-
-    
-@media screen and (max-width:599px) and (orientation:landscape) {
-    
-    #textoFoto{
-    background-color: #000000;
-    width: 80%;
-    font-size: 46px; 
-    color:#e67700;
-    font-weight: bold;
-    position: absolute; 
-    top: 700px;
-    right: 50px; 
-    border:solid; 
-    border-color: #e67700;
-    text-align: center;
-    } 
-}
     
     
     /*>diseño para tableta*/
@@ -509,7 +486,7 @@ button{
 .tituloRedes{
     position: fixed; 
     font-size: 110%;
-    left: 85%; 
+    left: 80%; 
     top: 85%; 
     color: #fca64b;
     margin: 0px;
@@ -519,10 +496,10 @@ button{
 .redesSociales{
     display: inline-block;
     position: fixed;
-    left:25px;
+    left:73%;
     background-color:transparent;
     border-radius: 10px;
-    bottom: 30%;
+    bottom: 4%;
     width: 25%;
     z-index: 1;
     
