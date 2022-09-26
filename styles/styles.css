@@ -107,7 +107,7 @@ footer ul li a {
     color:#e67700;
     font-weight: bold;
     position: absolute; 
-    top: 75%;
+    top: 78%;
     right: 10%; 
     border: 3px solid #e67700;
     text-align: center;
@@ -139,6 +139,7 @@ footer{
 .colorNav a {
     transition: 1.5s;
     font-size: 100%;
+    color: #fca64b;
 }
 
 .colorNav a:visited{
@@ -163,9 +164,9 @@ footer{
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    font-size: 50%;
-    padding: px;
-    margin: px;
+    font-size: 40%;
+    margin: 15px;
+    width: 90%;
 }
     
 .carrousellPupi{
@@ -173,9 +174,9 @@ footer{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    font-size: 50%;
-    padding: 10px;
-    margin: 10px;
+    font-size: 40%;
+    margin: 15px;
+    width: 90%;
 }
     
 .carrousellJacksoneitor{
@@ -183,9 +184,9 @@ footer{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    font-size: 50%;
-    padding: 10px;
-    margin: 10px;
+    font-size: 40%;
+    margin: 15px;
+    width: 90%;
 }
     
 .carrousellLean{
@@ -193,9 +194,9 @@ footer{
     justify-content:space-between;
     align-items: center;
     text-align: center;
-    font-size: 50%;
-    padding: 10px;
-    margin: 10px;
+    font-size: 40%;
+    margin: 15px;
+    width: 90%;
 }
     
 .telefono{
@@ -280,8 +281,6 @@ button{
     display:flex;
     position:sticky
 }
-
-    
     
     /*>diseño para tableta*/
     
