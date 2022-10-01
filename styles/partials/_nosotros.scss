@@ -1,5 +1,60 @@
 
+.parrafoNosotros{
+    text-align: center;
+    text-decoration:dotted;
+    font-size: 90%; 
+    line-height: 100%;
+    margin: 10px;
+ }
 
+ .nosDestacamos{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 90%;
+    width: 100%;
+}
+
+.nosDestacamos{
+    li{
+        text-align:left;
+        color: #e67700;
+        font-size: 80%; 
+    }
+}
+
+   /*>diseño para tableta*/
+   
+@media screen and (min-width:600px ) and (orientation: portraid) {
+
+}
+
+@media screen and (min-width:1200px ) {
+
+.parrafoNosotros{
+    text-align: center;
+    font-size: 100%;
+    text-decoration:dotted; 
+    line-height: 150%;
+    margin: 1%;
+}
+                
+.nosDestacamos{
+    text-decoration:solid;
+    font-size: 180%;
+    list-style-type: style type none;
+}
+     
+.nosDestacamos{
+    li{
+    color: #e67700;
+    margin: 2%;
+    text-align:center;
+    font-size: 100%;  
+}
+}
+}
+        
 
 
 

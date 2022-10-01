@@ -1,7 +1,52 @@
+footer { 
+    font-size: 55%;
+    background-color: #000000;
+    border-top: 4px solid #fca64b; 
+    margin: 10px;
+}
+
+footer{
+    ul{
+        li{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
 
 
+    /*>diseño para tableta*/
+    
+@media screen and (min-width:600px ) and (orientation: portraid) {
 
+footer{
+    margin:10px;
+    background-color:#000000;
+    border-top: 4px solid #fca64b; 
+}
+}
+    /*Diseño para Desktop*/
+    
+@media screen and (min-width:1200px ) {
+ 
+footer{
+    border-top: 4px solid #fca64b; 
+    background-color: #000000;
+    margin:10px;
+}
 
+footer{
+    ul{
+        li{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+}
 
 
 

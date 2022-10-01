@@ -1,25 +1,4 @@
 @charset "UTF-8";
-/*# sourceMappingURL=styles.css.map */
-* {
-  color: rgb(255, 255, 255);
-  margin: 0.05%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-header {
-  display: block;
-  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
-}
-
-body {
-  background-color: #000000;
-}
-
-footer {
-  font-size: 55%;
-  background-color: #000000;
-}
-
 .tituloPrincipal {
   background-size: 80%;
   color: #e67700;
@@ -27,85 +6,6 @@ footer {
   font-size: 190%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-}
-
-footer ul li a {
-  text-decoration: none;
-}
-
-.tituloRedes {
-  position: -webkit-sticky;
-  position: sticky;
-  color: #fca64b;
-  align-items: center;
-  text-align: center;
-  font-size: 150%;
-  z-index: 1;
-}
-
-.redesSociales {
-  position: -webkit-sticky;
-  position: sticky;
-  text-align: center;
-  align-items: center;
-  background-color: transparent;
-  border: transparent;
-  z-index: 1;
-}
-
-.redesSociales ul {
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  text-align: center;
-  align-items: center;
-  list-style-type: none;
-  z-index: 1;
-}
-
-.redesSociales ul li {
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 10%;
-  text-align: center;
-  align-items: center;
-  background-color: transparent;
-  border: transparent;
-  z-index: 1;
-}
-
-.redesSociales ul li a {
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  left: 50%;
-  background-color: transparent;
-  border: transparent;
-  z-index: 1;
-}
-
-.parrafoNosotros {
-  text-align: center;
-  -webkit-text-decoration: dotted;
-          text-decoration: dotted;
-  font-size: 90%;
-  line-height: 100%;
-  margin: 10px;
-}
-
-.nosDestacamos {
-  text-align: center;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 90%;
-  width: 100%;
-}
-
-.nosDestacamos li {
-  text-align: left;
-  color: #e67700;
-  font-size: 80%;
 }
 
 #textoFoto {
@@ -128,92 +28,78 @@ footer ul li a {
   justify-content: center;
 }
 
-header {
-  border-bottom: 4px solid #fca64b;
-}
-
-footer {
-  border-top: 4px solid #fca64b;
-}
-
-.colorNav {
-  background-color: #000000;
-  border: 5px solid #e67700;
-  left: 15%;
-  color: #fca64b;
-  width: 100%;
-}
-
-.colorNav a {
-  transition: 1.5s;
-  font-size: 100%;
-  color: #fca64b;
-}
-.colorNav a:visited {
-  color: #e67700;
-}
-
-.datos li {
-  list-style-type: none;
-}
-
 .tituloFotos {
   color: #fca64b;
   font-size: 150%;
 }
 
-footer {
-  margin: 10px;
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .tituloPrincipal {
+    background-size: 80px;
+    color: #e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #textoFoto {
+    background-color: #000000;
+    width: 70%;
+    font-size: 46px;
+    color: #e67700;
+    font-weight: bold;
+    position: absolute;
+    top: 700px;
+    right: 100px;
+    border: solid;
+    border-color: #e67700;
+    text-align: center;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
 }
-
-.carrousellSunny {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center;
-  font-size: 40%;
-  margin: 15px;
-  width: 95%;
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
+  .tituloPrincipal {
+    color: #e67700;
+    text-align: center;
+    font-size: 600%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #textoFoto {
+    border: 6px solid #e67700;
+    background-color: #000000;
+    width: 75%;
+    font-size: 500%;
+    color: #e67700;
+    font-weight: bold;
+    position: absolute;
+    top: 160%;
+    right: 10%;
+    text-align: center;
+    transition: all 1.5s;
+  }
+  #textoFoto:hover {
+    border: 6px solid #000000;
+    color: #000000;
+    background-color: #e67700;
+  }
+  .tituloFotos {
+    color: #fca64b;
+    font-size: 50px;
+  }
 }
-
-.carrousellPupi {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-size: 40%;
-  margin: 15px;
-  width: 95%;
-}
-
-.carrousellJacksoneitor {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-size: 40%;
-  margin: 15px;
-  width: 95%;
-}
-
-.carrousellLean {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  font-size: 40%;
-  margin: 15px;
-  width: 95%;
-}
-
 .telefono {
-  color: white;
+  color: #ffffff;
   font-size: 12px;
   text-align: center;
 }
 
 .direccion {
-  color: white;
+  color: #ffffff;
   font-size: 15px;
   text-align: center;
 }
@@ -225,7 +111,7 @@ footer {
 }
 
 .copy {
-  color: white;
+  color: #ffffff;
   font-size: 10px;
   text-align: center;
 }
@@ -292,114 +178,6 @@ button {
 }
 
 /*>diseño para tableta*/
-@media screen and (min-width: 600px) and (orientation: portraid) {
-  .tituloRedes {
-    position: fixed;
-    left: 400px;
-    top: 400px;
-    color: #fca64b;
-    margin: 0px;
-  }
-  .redesSociales {
-    position: fixed;
-    bottom: 0px;
-    left: 1000px;
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 0px 8px 0px 0px;
-    width: 50%;
-    display: inline-block;
-  }
-  .redesSociales ul {
-    list-style-type: none;
-    padding: 0%;
-  }
-  .redesSociales ul li {
-    display: inline-block;
-    background-color: transparent;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    padding: 5px;
-  }
-  .redesSociales ul li a {
-    font-size: 20px;
-    text-align: right;
-    color: #e67700;
-  }
-  .tituloPrincipal {
-    background-size: 80px;
-    color: #e67700;
-    text-align: center;
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-  #textoFoto {
-    background-color: #000000;
-    width: 70%;
-    font-size: 46px;
-    color: #e67700;
-    font-weight: bold;
-    position: absolute;
-    top: 700px;
-    right: 100px;
-    border: solid;
-    border-color: #e67700;
-    text-align: center;
-  }
-  .tituloFotos {
-    color: #fca64b;
-  }
-  .carrousellSunny {
-    display: flex;
-    justify-content: space-around;
-  }
-  .carrousellPupi {
-    display: flex;
-    justify-content: space-around;
-  }
-  .carrousellJacksoneitor {
-    display: flex;
-    justify-content: space-around;
-  }
-  .carrousellLean {
-    display: flex;
-    justify-content: space-around;
-  }
-  .colorNav {
-    background-color: #000000;
-    border: 2px solid #e67700;
-    text-align: center;
-  }
-  .colorNav a {
-    transition: 1.5s;
-  }
-  .colorNav a:hover {
-    color: rgb(255, 255, 255);
-  }
-  .colorNav a:visited {
-    color: #fca64b;
-  }
-  .colorText {
-    color: #fca64b;
-    text-align: center;
-  }
-  .colorText a {
-    transition: 1.5s;
-  }
-  .colorText a:hover {
-    color: #e67700;
-  }
-  .datos li {
-    list-style-type: none;
-  }
-  .tituloFotos {
-    color: #fca64b;
-  }
-  footer {
-    margin: 10px;
-  }
-}
 /*Diseño para Desktop*/
 @media screen and (min-width: 1200px) {
   .bodyForm {
@@ -452,6 +230,10 @@ button {
     text-align: center;
     background-color: #000000;
   }
+  .parrafoContacto {
+    text-align: center;
+    margin: 2%;
+  }
   button {
     margin: 15px;
   }
@@ -461,6 +243,210 @@ button {
     position: -webkit-sticky;
     position: sticky;
   }
+  .datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .telefono {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .direccion {
+    color: #ffffff;
+    font-size: 25px;
+  }
+  .copy {
+    color: #ffffff;
+    font-size: 12px;
+  }
+}
+header {
+  display: block;
+  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+}
+
+header {
+  border-bottom: 4px solid #fca64b;
+}
+
+/*>diseño para tableta*/
+/*Diseño para Desktop*/
+header {
+  display: block;
+  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+}
+
+header {
+  border-bottom: 4px solid #fca64b;
+}
+
+.parrafoNosotros {
+  text-align: center;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  font-size: 90%;
+  line-height: 100%;
+  margin: 10px;
+}
+
+.nosDestacamos {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 90%;
+  width: 100%;
+}
+
+.nosDestacamos li {
+  text-align: left;
+  color: #e67700;
+  font-size: 80%;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 1200px) {
+  .parrafoNosotros {
+    text-align: center;
+    font-size: 100%;
+    -webkit-text-decoration: dotted;
+            text-decoration: dotted;
+    line-height: 150%;
+    margin: 1%;
+  }
+  .nosDestacamos {
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    font-size: 180%;
+    list-style-type: style type none;
+  }
+  .nosDestacamos li {
+    color: #e67700;
+    margin: 2%;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+footer {
+  font-size: 55%;
+  background-color: #000000;
+  border-top: 4px solid #fca64b;
+  margin: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  footer {
+    margin: 10px;
+    background-color: #000000;
+    border-top: 4px solid #fca64b;
+  }
+}
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
+  footer {
+    border-top: 4px solid #fca64b;
+    background-color: #000000;
+    margin: 10px;
+  }
+  footer ul li a {
+    text-decoration: none;
+  }
+}
+.tituloRedes {
+  position: -webkit-sticky;
+  position: sticky;
+  color: #fca64b;
+  align-items: center;
+  text-align: center;
+  font-size: 150%;
+  z-index: 1;
+}
+
+.redesSociales {
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: transparent;
+  z-index: 1;
+}
+
+.redesSociales ul {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+  z-index: 1;
+}
+
+.redesSociales ul li {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 10%;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: transparent;
+  z-index: 1;
+}
+
+.redesSociales ul li a {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 50%;
+  background-color: transparent;
+  border: transparent;
+  z-index: 1;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .tituloRedes {
+    position: fixed;
+    left: 400px;
+    top: 400px;
+    color: #fca64b;
+    margin: 0px;
+  }
+  .redesSociales {
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px 8px 0px 0px;
+    width: 50%;
+    display: inline-block;
+  }
+  .redesSociales ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+  .redesSociales ul li {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .redesSociales ul li a {
+    font-size: 20px;
+    text-align: right;
+    color: #e67700;
+  }
+}
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
   .tituloRedes {
     position: fixed;
     font-size: 110%;
@@ -494,55 +480,53 @@ button {
     padding: 0.4%;
     z-index: 1;
   }
-  .tituloPrincipal {
-    color: #e67700;
-    text-align: center;
-    font-size: 600%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-  #textoFoto {
-    border: 6px solid #e67700;
+}
+.colorNav {
+  background-color: #000000;
+  border: 5px solid #e67700;
+  left: 15%;
+  color: #fca64b;
+  width: 100%;
+}
+
+.colorNav a {
+  transition: 1.5s;
+  font-size: 100%;
+  color: #fca64b;
+}
+.colorNav a:visited {
+  color: #e67700;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .colorNav {
     background-color: #000000;
-    width: 75%;
-    font-size: 500%;
+    border: 2px solid #e67700;
+    text-align: center;
+  }
+  .colorNav a {
+    transition: 1.5s;
+  }
+  .colorNav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .colorNav a:visited {
+    color: #fca64b;
+  }
+  .colorText {
+    color: #fca64b;
+    text-align: center;
+  }
+  .colorText a {
+    transition: 1.5s;
+  }
+  .colorText a:hover {
     color: #e67700;
-    font-weight: bold;
-    position: absolute;
-    top: 160%;
-    right: 10%;
-    text-align: center;
-    transition: all 1.5s;
   }
-  #textoFoto:hover {
-    border: 6px solid #000000;
-    color: #000000;
-    background-color: #e67700;
-  }
-  .parrafoNosotros {
-    text-align: center;
-    font-size: 100%;
-    -webkit-text-decoration: dotted;
-            text-decoration: dotted;
-    line-height: 150%;
-    margin: 1%;
-  }
-  .nosDestacamos {
-    -webkit-text-decoration: solid;
-            text-decoration: solid;
-    font-size: 180%;
-    list-style-type: style type none;
-  }
-  .nosDestacamos li {
-    color: #e67700;
-    margin: 2%;
-    text-align: center;
-    font-size: 100%;
-  }
-  .parrafoContacto {
-    text-align: center;
-    margin: 2%;
-  }
+}
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
   .colorNav {
     background-color: #000000;
     border: 2px solid #e67700;
@@ -566,30 +550,68 @@ button {
     color: #fca64b;
     text-align: center;
   }
-  .datos {
+}
+.carrousellSunny {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-size: 40%;
+  margin: 15px;
+  width: 95%;
+}
+
+.carrousellPupi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 40%;
+  margin: 15px;
+  width: 95%;
+}
+
+.carrousellJacksoneitor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 40%;
+  margin: 15px;
+  width: 95%;
+}
+
+.carrousellLean {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 40%;
+  margin: 15px;
+  width: 95%;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .carrousellSunny {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-around;
   }
-  .telefono {
-    color: white;
-    font-size: 15px;
+  .carrousellPupi {
+    display: flex;
+    justify-content: space-around;
   }
-  .direccion {
-    color: white;
-    font-size: 25px;
+  .carrousellJacksoneitor {
+    display: flex;
+    justify-content: space-around;
   }
-  .copy {
-    color: white;
-    font-size: 12px;
+  .carrousellLean {
+    display: flex;
+    justify-content: space-around;
   }
-  .tituloFotos {
-    color: #fca64b;
-    font-size: 50px;
-  }
-  footer {
-    margin: 1px;
-  }
+}
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
   .carrousellSunny {
     display: flex;
     justify-content: space-around;
@@ -632,4 +654,26 @@ button {
     align-items: center;
     border: 5px solid #fca64b;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
+* {
+  color: rgb(255, 255, 255);
+  margin: 0.05%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.datos li {
+  list-style-type: none;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  .datos li {
+    list-style-type: none;
+  }
+}
+/*Diseño para Desktop*//*# sourceMappingURL=styles.css.map */

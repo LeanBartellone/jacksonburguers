@@ -1,6 +1,118 @@
+.carrousellSunny{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 40%;
+    margin: 15px;
+    width: 95%;
+}
 
+.carrousellPupi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 40%;
+    margin: 15px;
+    width: 95%;
+}
 
+.carrousellJacksoneitor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 40%;
+    margin: 15px;
+    width: 95%;
+}
 
+.carrousellLean{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 40%;
+    margin: 15px;
+    width: 95%;
+}
+
+   /*>diseño para tableta*/
+   
+@media screen and (min-width:600px ) and (orientation: portraid) {
+   
+.carrousellSunny{
+    display: flex;
+    justify-content: space-around;
+}
+        
+.carrousellPupi{
+    display: flex;
+    justify-content: space-around;
+}
+        
+.carrousellJacksoneitor{
+    display: flex;
+    justify-content: space-around;
+}
+        
+.carrousellLean{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+    /*Diseño para Desktop*/
+    
+@media screen and (min-width:1200px ) {
+
+.carrousellSunny{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    font-size: 150%;
+    align-items: center;
+    border:5px solid #fca64b;
+    width: 98%;
+}
+        
+.carrousellPupi{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 150%;
+    align-items: center;
+    border: 5px solid #fca64b;
+    padding: 10px;
+    margin: 15px;
+    width: 98%;  
+}
+        
+.carrousellJacksoneitor{
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 150%;
+    align-items: center;
+    border: 5px solid #fca64b;
+}
+
+.carrousellLean{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 150%;
+    align-items: center;
+    border: 5px solid #fca64b;
+}
+}
 
 
 

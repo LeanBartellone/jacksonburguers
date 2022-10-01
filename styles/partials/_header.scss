@@ -1,8 +1,31 @@
+header{
+    display: block;
+    background-image: linear-gradient(to top, #000000, #111111,#222222, #333333, #555555);
+}
 
+header{
+    border-bottom: 4px solid #fca64b; 
+}
 
+   /*>diseño para tableta*/
+   
+@media screen and (min-width:600px ) and (orientation: portraid) {
+}
 
+    /*Diseño para Desktop*/
+    
+@media screen and (min-width:1200px ) {
+ 
+}
 
+header{
+    display: block;
+    background-image: linear-gradient(to top, #000000, #111111,#222222, #333333, #555555);
+}
 
+header{
+    border-bottom: 4px solid #fca64b; 
+}
 
 
 

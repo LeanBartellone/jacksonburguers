@@ -1,8 +1,107 @@
+.tituloPrincipal{
+    background-size: 80%;
+    color:#e67700;
+    text-align: center;
+    font-size: 190%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
+#textoFoto{
+    background-color: #000000;
+    width: 80%;
+    font-size: 200%; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 78%;
+    right: 10%; 
+    border: 3px solid #e67700;
+    text-align: center;
+}
 
+.jack{
+    display: flex;
+    flex-direction:column;
+     align-items: center;
+    justify-content: center;
+}
 
+.tituloFotos{
+    color: #fca64b;
+    font-size: 150%;
+}
 
+    /*>diseño para tableta*/
+    
+@media screen and (min-width:600px ) and (orientation: portraid) {
 
+.tituloPrincipal{
+    background-size: 80px;
+    color:#e67700;
+    text-align: center;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}   
+        
+   
+#textoFoto{ 
+    background-color: #000000;
+    width: 70%;
+    font-size: 46px; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 700px;
+    right: 100px; 
+    border:solid; 
+    border-color: #e67700;
+    text-align: center;
+}
+
+.tituloFotos{
+    color: #fca64b;
+}
+}
+     /*Diseño para Desktop*/
+    
+@media screen and (min-width:1200px ) {
+
+.tituloPrincipal{
+    color:#e67700;
+    text-align: center;
+    font-size: 600%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}    
+
+#textoFoto{ 
+    border: 6px solid #e67700;
+    background-color: #000000;
+    width: 75%;
+    font-size: 500%; 
+    color:#e67700;
+    font-weight: bold;
+    position: absolute; 
+    top: 160%;
+    right:10%; 
+    text-align: center;
+    transition: all 1.5s;
+}
+
+#textoFoto:hover{
+    border: 6px solid #000000;
+    color: #000000;
+    background-color: #e67700;
+}
+
+.tituloFotos{
+    color: #fca64b;
+    font-size: 50px;
+}
+
+}
 
 
 

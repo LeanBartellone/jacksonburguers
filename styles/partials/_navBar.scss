@@ -1,6 +1,80 @@
+.colorNav{
+    background-color: #000000;
+    border: 5px solid #e67700;
+    left: 15%;
+    color: #fca64b;
+    width: 100%;
+}
 
+.colorNav{
+    a{
+        transition: 1.5s;
+        font-size: 100%;
+        color: #fca64b; 
+        &:visited{color: #e67700;}
+    }
+}
 
+    /*>diseño para tableta*/
+    
+@media screen and (min-width:600px ) and (orientation: portraid) {
 
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+    text-align: center;
+}
+    
+.colorNav{
+    a{
+        transition: 1.5s;  
+        &:hover{  color:rgb(255, 255, 255)}
+        &:visited{ color: #fca64b;}
+    }
+}
+    
+.colorText{
+    color: #fca64b;
+    text-align: center;
+}
+     
+.colorText{
+    a{
+        transition: 1.5s;  
+         &:hover{color: #e67700;}
+    }
+}    
+}
+    /*Diseño para Desktop*/
+    
+@media screen and (min-width:1200px ) {
+
+.colorNav{
+    background-color: #000000;
+    border: 2px solid #e67700;
+    width: 75%;
+    left: 35%;
+}
+
+.colorNav{
+        a{
+            transition: 2.5s;
+            align-items:center;
+            text-align: center;
+            font-size: 200%;
+            padding: 1%;  
+            &:visited{ color:#e67700;}
+            &:hover{ color: #ffffff;}
+        }
+}
+
+.colorText{
+    color: #fca64b;
+    text-align: center;
+}    
+
+}
+ 
 
 
 
