@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="comunicacion entre local y usuario">
-    <meta name="keywords" content="HAMBURGUESA, CHEDDAR, CARNE, VEGGIE, PAPAS FRITAS, PET FRIENDLY, COVID, CENA, COMIDA, PEDIDOS">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
-    <title>JACKSON BURGUERS - CONTACTO</title>
+    <title>JACKSON BURGERS</title>
 </head>
-<body>
+<body class="bodyForm">
     <section>
     <header>
         <nav class="jack">
             <img class="logoJack" src="../images/Logo.jpg" alt="" width="250px">
         </nav>
-        <h1 class="tituloPrincipal">JACKSON BURGUERS *MORFING IS ALL*</h1>
+        <h1 class="tituloPrincipal">JACKSON BURGERS *MORFING IS ALL*</h1>
         <h3 class="tituloRedes">Seguinos en nuestras redes!</h3>
        <nav class="redesSociales">
             <ul>
@@ -37,35 +35,30 @@
     </header>
     <main>
         <nav class="parrafoContacto">
-        <h3>SI QUERÉS SER PARTE DE JACKSON BURGUERS, PODÉS SERLO</h3>
-        <h4>Podés contactarte con nosotros para trabajar en nuestro local, o bien podés abrir una franquicia</h4>
-    </nav>
-        <h5>FORMULARIO PARA COMPLETAR:</h5>
-            <form action="">
-         <fieldset>
-            <legend>Datos Personales</legend>
-       <div class="mb-3">
-         <label for="exampleFormControlInput1" class="form-label">NOMBRE Y APELLIDO</label>
-         <input class="form-control form-control-sm" type="text" placeholder="Jackson Burguers" aria-label=".form-control-sm example">
-         <label for="exampleFormControlInput1" class="form-label">NUMERO DE TELEFONO</label>
-         <input class="form-control form-control-sm" type="number" placeholder="1164010101" aria-label=".form-control-sm example">
-        <label for="exampleFormControlInput1" class="form-label">MAIL</label>
-        <input class="form-control form-control-sm" type="email" placeholder="Jackson@burguers.com.ar" aria-label=".form-control-sm example">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">COMENTARIOS</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe un comentario..." cols="8" rows="1"></textarea>
-    
-        <label for="Opciones de Contacto">Opciones de Contacto</label>
-        <br>
-        <label for="Busco Empleo">Busco Empleo</label>
-        <input type="checkbox">
-        <label for="Quiero Franquiciar">Quiero Franquiciar</label>
-        <input type="Checkbox">
-        <br>
+        <h2 class="tituloParrafo">SI QUERÉS SER PARTE DE JACKSON BURGERS, PODÉS SERLO</h2>
+        </nav>
+        <form action="">
+        <fieldset>
+        <legend>Datos Personales</legend>
+        <label>NOMBRE Y APELLIDO</label>
+        <input type="text" placeholder="Jackson Burgers">
+        <label>NUMERO DE TELEFONO</label>
+        <input type="number" placeholder="1164010101">
+        <label>MAIL</label>
+        <input type="email" placeholder="Jackson@burgers.com.ar">
+        <label>COMENTARIOS</label>
+        <textarea placeholder="Escribe un comentario..." cols="3" rows="3"></textarea>
+        <label class="opciones">Opciones de Contacto</label>
+        <div class="checkbox">
+            <label for="RRHH">RRHH</label>
+            <input type="checkbox" name="RRHH" id="RRHH">
+        </div>
+        <div class="checkbox">
+            <label for="Franquicia">Franquicia</label>
+            <input type="Checkbox" name="Franquicia" id="Franquicia">
+        </div>        
         <button type="submit" value="Aceptar" class="btn btn-outline-light">Aceptar</button>
-        <button type="reset" value="Rechazar" class="btn btn-outline-light">Rechazar</button>
-    </div>
+        <button type="reset" value="Rechazar" class="btn btn-outline-light">Cancelar</button>
         </fieldset>
         </form>
     </main>
@@ -74,7 +67,7 @@
         <nav class="col-8 p-2 m-3">
             <nav class="navbar navbar-expand-lg colorNav">
                 <div class="container-fluid">
-                    <a class="navbar-brand colorText" href="#">JACKSON BURGUERS</a>
+                    <a class="navbar-brand colorText" href="#">JACKSON BURGERS</a>
                     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon alarm"></span>
                     </button>
@@ -97,18 +90,127 @@
                       </div>
                     </nav>          
                 </nav> 
-                <nav class="col-4 p-2 m-3 text-left datos" >
-                        <li>Avenida La Plata 1700 - Boedo - Argentina</li>
-                        <br>
-                        <li>011-6470-0000</li>
-                        <br>
-                        <p>Copyright JACKSONBURGUERS - 2022. Todos los derechos reservados</p>
-                    </ul>
+                <nav class="datos" >
+                        <span class="direccion">Avenida La Plata 1700 - Boedo - Argentina</span>
+                        <span class="telefono"> TEL: 011-6470-0000</span>
+                        <span class="copy">Copyright Leandro Bartellone - 2022. Todos los derechos reservados</span>
                 </nav>
-            </div>         
+            </div>
         </footer>
 </section>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

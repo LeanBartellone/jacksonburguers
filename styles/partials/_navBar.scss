@@ -1,105 +1,91 @@
-.jack{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
-
-.datos {
-    li{
-        list-style-type: none;
-    }
-}
-
-.colorNav{
-    text-align: center;
-    }
-
-.colorNav {
-    a{
-     transition: 1.5s;
-    }
-    &:hover{color: rgb(255, 255, 255);}
-    &:visited{color: #e67700;}
-}
-
-.colorText{
-    text-align: center;
-}
-
-.colorText {
-    a{transition: 1.5s;
-    }
-    &:hover{
-    color:#e67700
-    }
-}
-
-@media screen and (max-width:599px) and (orientation:landscape) {
-
-}
 
 
-@media screen and (min-width:600px ) and (orientation: portraid){
 
-.datos{
-    li{
-        list-style-type: none;
-        }
-}
 
-.colorNav{
-    text-align: center;
-}
-            
-.colorNav{
-        a{
-            transition: 1.5s;
-            &:hover{color: rgb(255, 255, 255);}
-            &:visited{color: #fca64b;}
-        }
-}
-    
-.colorText{
-    text-align: center;
-}
-            
-.colorText{
-    a{
-        transition: 1.5s;
-        &:hover{color: #e67700;}
-    }
-}      
- 
-}
-@media screen and (min-width:1200px ) {
 
-.datos {
-    li{
-        list-style: none;
-        }
-}
 
-.colorNav{
-    text-align: center;
-}
-        
-.colorNav {
-    a{
-        transition: 1.5s;
-        &:hover{ color: rgb(255, 255, 255);}
-        &:visited{color: #fca64b;}
-    }
-}
-        
-.colorText{
-    text-align: center;
-    }
-        
-.colorText {
-    a{
-        transition: 1.5s;
-        &:hover{color: #e67700;}
-    }
-}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

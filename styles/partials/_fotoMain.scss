@@ -1,64 +1,55 @@
-#textoFoto{
-    width: 73%;
-    font-size: 50px;
-    font-weight: bold;
-    position: absolute; 
-    top: 700px;
-    right: 50px; 
-    border:solid; 
-    text-align: center;
-    color: $fotoColor;
-    background-color: $fotoBackground;
-    border: 1px $fotoBorder;
-}
 
-@media screen and (max-width:599px) and (orientation:landscape) {
 
-#textoFoto{
-    width: 80%;
-    font-size: 46px; 
-    font-weight: bold;
-    position: absolute;
-    top: 700px;
-    right: 50px; 
-    border:solid; 
-    text-align: center;
-    color: $fotoColor;
-    background-color: $fotoBackground;
-    border: 01px $fotoBorder;
-}
-}
 
-@media screen and (min-width:600px ) and (orientation: portraid){
 
-#textoFoto{ 
-    background-color: $fotoBackground;
-    width: 70%;
-    font-size: 46px; 
-    color:$fotoColor;
-    font-weight: bold;
-    position: absolute; 
-    top: 700px;
-    right: 100px; 
-    border:solid; 
-    border-color:$fotoBorder;
-    text-align: center;
-}
-}
 
-@media screen and (min-width:1200px ) {
 
-#textoFoto{ 
-    width: 75%;
-    font-size: 100px; 
-    font-weight: bold;
-    position: absolute; 
-    top: 750px;
-    right: 100px; 
-    border:solid; 
-    text-align: center;
-    color: $fotoColor;
-    border: 01px $fotoBorder;
-    background-color: $fotoBackground;
-}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
