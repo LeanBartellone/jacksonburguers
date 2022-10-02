@@ -4,7 +4,7 @@ body {
 }
 
 * {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .telefono {
@@ -68,11 +68,11 @@ header {
 .colorNav {
   background-color: #000000;
   border: 5px solid #e67700;
-  color: #fca64b;
+  color: #e67700;
 }
 
 .colorNav a {
-  color: #fca64b;
+  color: #e67700;
 }
 .colorNav a:visited {
   color: #e67700;

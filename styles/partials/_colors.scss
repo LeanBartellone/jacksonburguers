@@ -1,59 +1,59 @@
 body{
-    background-color: #000000;
+    background-color: $colorBackgroundBody;
 }
 
 *{
-    color: rgb(255, 255, 255);
+    color: $colorLetrasDatos;
 }
 
 .telefono{
-    color:#ffffff;
+    color:$colorLetrasDatos;
 }
 
 .direccion{
-    color:#ffffff;
+    color:$colorLetrasDatos;
 }
 
 .copy{
-    color:#ffffff;
+    color:$colorLetrasDatos;
 }
 
 form{
-    background-color: #000000;
-    border: 5px solid #e67700;
+    background-color: $colorBackgroundFormulario;
+    border: 5px solid $colorBordeFormulario;
 }
 
 legend{
-    color: #fca64b;
-    background-color:#000000;
+    color: $colorLetrasFormulario;
+    background-color:$colorBackgroundFormulario;
 }
 
 label{
-    color:#fca64b;
-    background-color:#000000;
+    color:$colorLetrasFormulario;
+    background-color:$colorBackgroundFormulario;
 }
 
 .tituloParrafo{
-    background-color: #000000;
+    background-color: $colorBackgroundFormulario;
 }
 
 footer { 
-    background-color: #000000;
-    border-top: 4px solid #fca64b; 
+    background-color: $colorBackgroundFooter;
+    border-top: 4px solid $colorBordeFooter; 
 }
 
 .tituloPrincipal{
-    color:#e67700;
+    color:$colorTitulo;
 }
 
 #textoFoto{
-    background-color: #000000;
-    color:#e67700; 
-    border: 3px solid #e67700;
+    background-color: $colorBackgroundMain;
+    color:$colorLetrasMain; 
+    border: 3px solid $colorBordeMain;
 }
 
 .tituloFotos{
-    color: #fca64b;
+    color: $colorTituloFotos;
 }
 
 header{
@@ -61,41 +61,41 @@ header{
 }
 
 header{
-    border-bottom: 4px solid #fca64b; 
+    border-bottom: 4px solid $colorBordeHeader; 
 }
 
 .colorNav{
-    background-color: #000000;
-    border: 5px solid #e67700;
-    color: #fca64b;
+    background-color: $colorFondoNav;
+    border: 5px solid $colorBordeNav;
+    color: $colorLetrasMain;
 }
 
 .colorNav{
     a{
-        color: #fca64b; 
-        &:visited{color: #e67700;}
+        color: $colorLetrasMain; 
+        &:visited{color: $colorLetraNavVisited;}
     }
 }
 
 .nosDestacamos{
     li{
-        color: #e67700;
+        color: $colorNosDestacamos;
     }
 
 .tituloRedes{
-    color: #fca64b;
+    color: $colorLetrasFormulario;
 }
 
 .redesSociales{
-    background-color:transparent;
-    border:transparent;
+    background-color:$colorBackgroundRedes;
+    border:$colorBordesRedes;
 }
 
 .redesSociales{
     ul{
         li{
-            background-color:transparent;
-            border:transparent;
+            background-color:$colorBackgroundRedes;
+            border:$colorBordesRedes;
         }
     }
 }
@@ -104,8 +104,8 @@ header{
     ul{
         li{
             a{
-                background-color: transparent;
-                border: transparent; 
+                background-color: $colorBackgroundRedes;
+                border: $colorBordesRedes; 
             }
         }
     }
@@ -202,75 +202,75 @@ header{
 
 
 .carrousellSunny{
-            border:5px solid #fca64b;
+            border:5px solid $colorBordeCarrousell;
 }
 
 .carrousellPupi{
-    border: 5px solid #fca64b;
+    border: 5px solid $colorBordeCarrousell;
 }
         
 .carrousellJacksoneitor{
-    border: 5px solid #fca64b;
+    border: 5px solid $colorBordeCarrousell;
 }
 
 .carrousellLean{
-    border: 5px solid #fca64b;
+    border: 5px solid $colorBordeCarrousell;
 }
 
 form{
-    background-color: #000000;
-    border: 5px solid #e67700;
+    background-color: $colorBackgroundFormulario;
+    border: 5px solid $colorBordeFormulario;
 }
 
 legend{
-    color: #fca64b;
-    background-color:#000000;
+    color: $colorLetrasFormulario;
+    background-color:$colorBackgroundFormulario;
 }
 
 label{
-    color:#fca64b;
-    background-color:#000000;
+    color:$colorLetrasFormulario;
+    background-color:$colorBackgroundFormulario;
 }
 
 .tituloParrafo{
-    background-color: #000000;
+    background-color: $colorBackgroundFormulario;
 }
 
 .telefono{
-    color:#ffffff;
+    color:$colorLetrasDatos;
 }
     
 .direccion{
-    color:#ffffff;
+    color:$colorLetrasDatos;
 }
     
 .copy{
-    color:#ffffff;
+    color:$colorLetrasDatos;
 }
 
 footer{
-    border-top: 4px solid #fca64b; 
-    background-color: #000000;
+    border-top: 4px solid $colorBordeFooter; 
+    background-color: $colorBackgroundFooter;
 }
 
 .tituloPrincipal{
-    color:#e67700;
+    color:$colorTitulo;
 }    
 
 #textoFoto{ 
-    border: 6px solid #e67700;
-    background-color: #000000; 
-    color:#e67700;
+    border: 6px solid $colorBordeMain;
+    background-color: $colorBackgroundMain; 
+    color:$colorLetrasMain;
 }
 
 #textoFoto:hover{
-    border: 6px solid #000000;
-    color: #000000;
-    background-color: #e67700;
+    border: 6px solid $colorBordeMainHover;
+    color: $colorLetrasMainHover;
+    background-color: $colorBackgroundMainHover;
 }
 
 .tituloFotos{
-    color: #fca64b;
+    color: $colorTituloFotos;
 }
 
 header{
@@ -278,33 +278,33 @@ header{
 }
 
 header{
-    border-bottom: 4px solid #fca64b; 
+    border-bottom: 4px solid $colorBordeHeader; 
 }
 
 .colorNav{
-    background-color: #000000;
-    border: 2px solid #e67700;
+    background-color: $colorFondoNav;
+    border: 2px solid $colorBordeNav;
 }
 
 .colorNav{
         a{
-            &:visited{ color:#e67700;}
-            &:hover{ color: #ffffff;}
+            &:visited{ color:$colorLetraNavVisited;}
+            &:hover{ color: $colorLetraNavHover;}
         }
 }
 
 .colorText{
-    color: #fca64b;
+    color: $colorLetrasFormulario;
 }    
 
 .nosDestacamos{
     li{
-    color: #e67700; 
+    color: $colorNosDestacamos; 
     }
 } 
 
 .tituloRedes{
-    color: #fca64b;
+    color: $colorLetrasFormulario;
 }
 
 .redesSociales{
@@ -314,8 +314,8 @@ header{
 .redesSociales{
     ul{
         li{
-            background-color:transparent;
-            border: 01px solid transparent; 
+            background-color:$colorBackgroundRedes;
+            border: 01px solid $colorBordesRedes; 
         }
     }
 }
