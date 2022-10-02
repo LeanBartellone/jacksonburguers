@@ -243,7 +243,6 @@ header {
 }
 .tituloPrincipal {
   background-size: 80%;
-  color: #e67700;
   text-align: center;
   font-size: 190%;
   font-family: Arial, Helvetica, sans-serif;
@@ -251,15 +250,12 @@ header {
 }
 
 #textoFoto {
-  background-color: #000000;
   width: 80%;
   font-size: 200%;
-  color: #e67700;
   font-weight: bold;
   position: absolute;
   top: 78%;
   right: 10%;
-  border: 3px solid #e67700;
   text-align: center;
 }
 
@@ -271,7 +267,6 @@ header {
 }
 
 .tituloFotos {
-  color: #fca64b;
   font-size: 150%;
 }
 
@@ -279,44 +274,33 @@ header {
 @media screen and (min-width: 600px) and (orientation: portraid) {
   .tituloPrincipal {
     background-size: 80px;
-    color: #e67700;
     text-align: center;
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
   #textoFoto {
-    background-color: #000000;
     width: 70%;
     font-size: 46px;
-    color: #e67700;
     font-weight: bold;
     position: absolute;
     top: 700px;
     right: 100px;
     border: solid;
-    border-color: #e67700;
     text-align: center;
-  }
-  .tituloFotos {
-    color: #fca64b;
   }
 }
 /*Diseño para Desktop*/
 @media screen and (min-width: 1200px) {
   .tituloPrincipal {
-    color: #e67700;
     text-align: center;
     font-size: 600%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
   #textoFoto {
-    border: 6px solid #e67700;
-    background-color: #000000;
     width: 75%;
     font-size: 500%;
-    color: #e67700;
     font-weight: bold;
     position: absolute;
     top: 160%;
@@ -326,22 +310,17 @@ header {
   }
   #textoFoto:hover {
     border: 6px solid #000000;
-    color: #000000;
-    background-color: #e67700;
   }
   .tituloFotos {
-    color: #fca64b;
     font-size: 50px;
   }
 }
 .telefono {
-  color: #ffffff;
   font-size: 12px;
   text-align: center;
 }
 
 .direccion {
-  color: #ffffff;
   font-size: 15px;
   text-align: center;
 }
@@ -353,31 +332,24 @@ header {
 }
 
 .copy {
-  color: #ffffff;
   font-size: 10px;
   text-align: center;
 }
 
 form {
-  background-color: #000000;
   width: 300px;
   margin: auto;
-  border: 5px solid #e67700;
   margin-bottom: 30px;
 }
 
 legend {
   text-align: center;
   font: size 30px;
-  color: #fca64b;
-  background-color: #000000;
 }
 
 label {
   width: 80%;
   font-size: 15px;
-  color: #fca64b;
-  background-color: #000000;
   margin: 10px;
 }
 
@@ -404,7 +376,6 @@ textarea {
 
 .tituloParrafo {
   text-align: center;
-  background-color: #000000;
   margin-top: 20px;
 }
 
@@ -431,23 +402,17 @@ button {
     box-sizing: content-box;
   }
   form {
-    background-color: #000000;
     width: 500px;
     margin: auto;
-    border: 5px solid #e67700;
     margin-bottom: 20px;
   }
   legend {
     text-align: center;
     font-size: 50px;
-    color: #fca64b;
-    background-color: #000000;
   }
   label {
     width: 80%;
     font-size: 20px;
-    color: #fca64b;
-    background-color: #000000;
     margin: 10px;
   }
   input, textarea {
@@ -470,7 +435,6 @@ button {
   }
   .tituloParrafo {
     text-align: center;
-    background-color: #000000;
   }
   .parrafoContacto {
     text-align: center;
@@ -491,45 +455,29 @@ button {
     text-align: center;
   }
   .telefono {
-    color: #ffffff;
     font-size: 15px;
   }
   .direccion {
-    color: #ffffff;
     font-size: 25px;
   }
   .copy {
-    color: #ffffff;
     font-size: 12px;
   }
 }
 header {
   display: block;
-  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
-}
-
-header {
-  border-bottom: 4px solid #fca64b;
 }
 
 /*>diseño para tableta*/
 @media screen and (min-width: 600px) and (orientation: portraid) {
   header {
     display: block;
-    background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
-  }
-  header {
-    border-bottom: 4px solid #fca64b;
   }
 }
 /*Diseño para Desktop*/
 @media screen and (min-width: 1200px) {
   header {
     display: block;
-    background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
-  }
-  header {
-    border-bottom: 4px solid #fca64b;
   }
 }
 .parrafoNosotros {
@@ -551,7 +499,6 @@ header {
 
 .nosDestacamos li {
   text-align: left;
-  color: #e67700;
   font-size: 80%;
 }
 
@@ -572,7 +519,6 @@ header {
     list-style-type: style type none;
   }
   .nosDestacamos li {
-    color: #e67700;
     margin: 2%;
     text-align: center;
     font-size: 100%;
@@ -580,8 +526,6 @@ header {
 }
 footer {
   font-size: 55%;
-  background-color: #000000;
-  border-top: 4px solid #fca64b;
   margin: 10px;
 }
 
@@ -597,8 +541,6 @@ footer ul li a {
 @media screen and (min-width: 600px) and (orientation: portraid) {
   footer {
     margin: 10px;
-    background-color: #000000;
-    border-top: 4px solid #fca64b;
   }
   .datos li {
     list-style-type: none;
@@ -607,8 +549,6 @@ footer ul li a {
 /*Diseño para Desktop*/
 @media screen and (min-width: 1200px) {
   footer {
-    border-top: 4px solid #fca64b;
-    background-color: #000000;
     margin: 10px;
   }
   footer ul li a {
@@ -618,7 +558,6 @@ footer ul li a {
 .tituloRedes {
   position: -webkit-sticky;
   position: sticky;
-  color: #fca64b;
   align-items: center;
   text-align: center;
   font-size: 150%;
@@ -630,8 +569,6 @@ footer ul li a {
   position: sticky;
   text-align: center;
   align-items: center;
-  background-color: transparent;
-  border: transparent;
   z-index: 1;
 }
 
@@ -652,8 +589,6 @@ footer ul li a {
   margin-left: 10%;
   text-align: center;
   align-items: center;
-  background-color: transparent;
-  border: transparent;
   z-index: 1;
 }
 
@@ -662,8 +597,6 @@ footer ul li a {
   position: -webkit-sticky;
   position: sticky;
   left: 50%;
-  background-color: transparent;
-  border: transparent;
   z-index: 1;
 }
 
@@ -673,14 +606,12 @@ footer ul li a {
     position: fixed;
     left: 400px;
     top: 400px;
-    color: #fca64b;
     margin: 0px;
   }
   .redesSociales {
     position: fixed;
     bottom: 0px;
     left: 1000px;
-    background-color: transparent;
     border-radius: 10px;
     padding: 0px 8px 0px 0px;
     width: 50%;
@@ -692,15 +623,12 @@ footer ul li a {
   }
   .redesSociales ul li {
     display: inline-block;
-    background-color: transparent;
-    border: 1px solid #000000;
     border-radius: 0px;
     padding: 5px;
   }
   .redesSociales ul li a {
     font-size: 20px;
     text-align: right;
-    color: #e67700;
   }
 }
 /*Diseño para Desktop*/
@@ -710,7 +638,6 @@ footer ul li a {
     font-size: 110%;
     left: 80%;
     top: 85%;
-    color: #fca64b;
     margin: 0px;
     z-index: 1;
   }
@@ -718,7 +645,6 @@ footer ul li a {
     display: inline-block;
     position: fixed;
     left: 73%;
-    background-color: transparent;
     border-radius: 10px;
     bottom: 4%;
     width: 25%;
@@ -733,61 +659,38 @@ footer ul li a {
   }
   .redesSociales ul li {
     display: inline-block;
-    background-color: transparent;
-    border: 1px solid transparent;
     padding: 0.4%;
     z-index: 1;
   }
 }
 .colorNav {
-  background-color: #000000;
-  border: 5px solid #e67700;
   left: 15%;
-  color: #fca64b;
   width: 100%;
 }
 
 .colorNav a {
   transition: 1.5s;
   font-size: 100%;
-  color: #fca64b;
-}
-.colorNav a:visited {
-  color: #e67700;
 }
 
 /*>diseño para tableta*/
 @media screen and (min-width: 600px) and (orientation: portraid) {
   .colorNav {
-    background-color: #000000;
-    border: 2px solid #e67700;
     text-align: center;
   }
   .colorNav a {
     transition: 1.5s;
   }
-  .colorNav a:hover {
-    color: rgb(255, 255, 255);
-  }
-  .colorNav a:visited {
-    color: #fca64b;
-  }
   .colorText {
-    color: #fca64b;
     text-align: center;
   }
   .colorText a {
     transition: 1.5s;
   }
-  .colorText a:hover {
-    color: #e67700;
-  }
 }
 /*Diseño para Desktop*/
 @media screen and (min-width: 1200px) {
   .colorNav {
-    background-color: #000000;
-    border: 2px solid #e67700;
     width: 75%;
     left: 35%;
   }
@@ -798,14 +701,7 @@ footer ul li a {
     font-size: 200%;
     padding: 1%;
   }
-  .colorNav a:visited {
-    color: #e67700;
-  }
-  .colorNav a:hover {
-    color: #ffffff;
-  }
   .colorText {
-    color: #fca64b;
     text-align: center;
   }
 }
@@ -878,7 +774,6 @@ footer ul li a {
     margin: 15px;
     font-size: 150%;
     align-items: center;
-    border: 5px solid #fca64b;
     width: 98%;
   }
   .carrousellPupi {
@@ -887,7 +782,6 @@ footer ul li a {
     text-align: center;
     font-size: 150%;
     align-items: center;
-    border: 5px solid #fca64b;
     padding: 10px;
     margin: 15px;
     width: 98%;
@@ -900,7 +794,6 @@ footer ul li a {
     margin: 30px;
     font-size: 150%;
     align-items: center;
-    border: 5px solid #fca64b;
   }
   .carrousellLean {
     display: flex;
@@ -910,7 +803,6 @@ footer ul li a {
     margin: 30px;
     font-size: 150%;
     align-items: center;
-    border: 5px solid #fca64b;
   }
 }
 /*# sourceMappingURL=styles.css.map */
@@ -924,14 +816,5 @@ body {
   background-color: #000000;
 }
 
-.datos li {
-  list-style-type: none;
-}
-
 /*>diseño para tableta*/
-@media screen and (min-width: 600px) and (orientation: portraid) {
-  .datos li {
-    list-style-type: none;
-  }
-}
 /*Diseño para Desktop*//*# sourceMappingURL=styles.css.map */
