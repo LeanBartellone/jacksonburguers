@@ -1,4 +1,246 @@
 @charset "UTF-8";
+body {
+  background-color: #000000;
+}
+
+* {
+  color: rgb(255, 255, 255);
+}
+
+.telefono {
+  color: #ffffff;
+}
+
+.direccion {
+  color: #ffffff;
+}
+
+.copy {
+  color: #ffffff;
+}
+
+form {
+  background-color: #000000;
+  border: 5px solid #e67700;
+}
+
+legend {
+  color: #fca64b;
+  background-color: #000000;
+}
+
+label {
+  color: #fca64b;
+  background-color: #000000;
+}
+
+.tituloParrafo {
+  background-color: #000000;
+}
+
+footer {
+  background-color: #000000;
+  border-top: 4px solid #fca64b;
+}
+
+.tituloPrincipal {
+  color: #e67700;
+}
+
+#textoFoto {
+  background-color: #000000;
+  color: #e67700;
+  border: 3px solid #e67700;
+}
+
+.tituloFotos {
+  color: #fca64b;
+}
+
+header {
+  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+}
+
+header {
+  border-bottom: 4px solid #fca64b;
+}
+
+.colorNav {
+  background-color: #000000;
+  border: 5px solid #e67700;
+  color: #fca64b;
+}
+
+.colorNav a {
+  color: #fca64b;
+}
+.colorNav a:visited {
+  color: #e67700;
+}
+
+.nosDestacamos li {
+  color: #e67700;
+}
+.nosDestacamos .tituloRedes {
+  color: #fca64b;
+}
+.nosDestacamos .redesSociales {
+  background-color: transparent;
+  border: transparent;
+}
+.nosDestacamos .redesSociales ul li {
+  background-color: transparent;
+  border: transparent;
+}
+.nosDestacamos .redesSociales ul li a {
+  background-color: transparent;
+  border: transparent;
+}
+
+/*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  footer {
+    background-color: #000000;
+    border-top: 4px solid #fca64b;
+  }
+  .tituloPrincipal {
+    color: #e67700;
+  }
+  #textoFoto {
+    background-color: #000000;
+    color: #e67700;
+    border-color: #e67700;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  header {
+    background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+  }
+  header {
+    border-bottom: 4px solid #fca64b;
+  }
+  .colorNav {
+    background-color: #000000;
+    border: 2px solid #e67700;
+  }
+  .colorNav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .colorNav a:visited {
+    color: #fca64b;
+  }
+  .colorText {
+    color: #fca64b;
+  }
+  .colorText a:hover {
+    color: #e67700;
+  }
+  .tituloRedes {
+    color: #fca64b;
+  }
+  .redesSociales {
+    background-color: transparent;
+  }
+  .redesSociales ul li {
+    background-color: transparent;
+    border: 1px solid #000000;
+  }
+  .redesSociales ul li a {
+    color: #e67700;
+  }
+}
+/*Diseño para Desktop*/
+@media screen and (min-width: 1200px) {
+  .carrousellSunny {
+    border: 5px solid #fca64b;
+  }
+  .carrousellPupi {
+    border: 5px solid #fca64b;
+  }
+  .carrousellJacksoneitor {
+    border: 5px solid #fca64b;
+  }
+  .carrousellLean {
+    border: 5px solid #fca64b;
+  }
+  form {
+    background-color: #000000;
+    border: 5px solid #e67700;
+  }
+  legend {
+    color: #fca64b;
+    background-color: #000000;
+  }
+  label {
+    color: #fca64b;
+    background-color: #000000;
+  }
+  .tituloParrafo {
+    background-color: #000000;
+  }
+  .telefono {
+    color: #ffffff;
+  }
+  .direccion {
+    color: #ffffff;
+  }
+  .copy {
+    color: #ffffff;
+  }
+  footer {
+    border-top: 4px solid #fca64b;
+    background-color: #000000;
+  }
+  .tituloPrincipal {
+    color: #e67700;
+  }
+  #textoFoto {
+    border: 6px solid #e67700;
+    background-color: #000000;
+    color: #e67700;
+  }
+  #textoFoto:hover {
+    border: 6px solid #000000;
+    color: #000000;
+    background-color: #e67700;
+  }
+  .tituloFotos {
+    color: #fca64b;
+  }
+  header {
+    background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+  }
+  header {
+    border-bottom: 4px solid #fca64b;
+  }
+  .colorNav {
+    background-color: #000000;
+    border: 2px solid #e67700;
+  }
+  .colorNav a:visited {
+    color: #e67700;
+  }
+  .colorNav a:hover {
+    color: #ffffff;
+  }
+  .colorText {
+    color: #fca64b;
+  }
+  .nosDestacamos li {
+    color: #e67700;
+  }
+  .tituloRedes {
+    color: #fca64b;
+  }
+  .redesSociales {
+    background-color: transparent;
+  }
+  .redesSociales ul li {
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+}
 .tituloPrincipal {
   background-size: 80%;
   color: #e67700;
@@ -271,16 +513,25 @@ header {
 }
 
 /*>diseño para tableta*/
+@media screen and (min-width: 600px) and (orientation: portraid) {
+  header {
+    display: block;
+    background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+  }
+  header {
+    border-bottom: 4px solid #fca64b;
+  }
+}
 /*Diseño para Desktop*/
-header {
-  display: block;
-  background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+@media screen and (min-width: 1200px) {
+  header {
+    display: block;
+    background-image: linear-gradient(to top, #000000, #111111, #222222, #333333, #555555);
+  }
+  header {
+    border-bottom: 4px solid #fca64b;
+  }
 }
-
-header {
-  border-bottom: 4px solid #fca64b;
-}
-
 .parrafoNosotros {
   text-align: center;
   -webkit-text-decoration: dotted;
@@ -338,12 +589,19 @@ footer ul li a {
   text-decoration: none;
 }
 
+.datos li {
+  list-style-type: none;
+}
+
 /*>diseño para tableta*/
 @media screen and (min-width: 600px) and (orientation: portraid) {
   footer {
     margin: 10px;
     background-color: #000000;
     border-top: 4px solid #fca64b;
+  }
+  .datos li {
+    list-style-type: none;
   }
 }
 /*Diseño para Desktop*/

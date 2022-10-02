@@ -15,6 +15,11 @@ footer{
     }
 }
 
+.datos{
+    li{
+        list-style-type: none;
+    }
+}
 
     /*>diseño para tableta*/
     
@@ -25,6 +30,13 @@ footer{
     background-color:#000000;
     border-top: 4px solid #fca64b; 
 }
+
+.datos{
+    li{
+        list-style-type: none;
+    }
+}
+
 }
     /*Diseño para Desktop*/
     
